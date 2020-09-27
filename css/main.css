@@ -159,17 +159,18 @@ header h2 span {
        /***** contact *****/
 
 #contact {
-         background-color: #ebebeb;
+         background-color: #A3A3A3;
          font-family: 'Share', cursive;
-         font-size: 50px;
+
        }
 
 
 #contact .full-width {
-          padding: 110px 0;
+          padding: 50px 0;
 }
 
 #contact img#contact-img {
+    padding-top: 50px;
     margin-left: 25px;
 }
 
@@ -177,13 +178,10 @@ header h2 span {
 #contact h2, #contact #email-header, #contact #socialmedia-header, #contact ul {
     padding-left: 115px;
 }
-#contact #envelope {
-    padding: 0 10px 0 115px;
-}
 
 #contact h2 {
     font-family: 'Bowlby One SC', cursive;
-    padding-top: 35px;
+    font-size: 100px;
     color: #334147;
 }
 #contact #email-header{
@@ -198,11 +196,13 @@ header h2 span {
     text-decoration: none;
     color: #334147;
     font-size: 30px;
+    text-align: right;
 }
 
 #email {
         font-size: 50px;
         padding-left: 115px;
+
 }
 
 #contact ul {
