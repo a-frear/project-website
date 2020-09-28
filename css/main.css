@@ -201,6 +201,7 @@ nav ul li a {
 #contact h2 {
    font-family: 'Bowlby One SC', cursive;
    font-size: 100px;
+   margin: 0px;
    color: #FE938C;
    text-shadow: -1px 1px 0 #000,
         1px 1px 0 #000,
@@ -211,19 +212,21 @@ nav ul li a {
 #contact a {
    text-decoration: none;
    color: #334147;
-   font-size: 30px;
+   font-size: 40px;
    text-align: right;
 }
 
-#email {
-       font-size: 100px;
-
-}
 
 #email:link    { color: #334147;  }
 #email:visited { color: #06D6A0;   }
 #email:hover   { color: #EF476F; }
 #email:active  { color: #FFD166;  }
+
+hr {
+  border: 1px dotted #334147;
+  margin-bottom: 150px;
+}
+
 
 #contact ul {
    list-style: none;
