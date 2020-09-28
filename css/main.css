@@ -36,7 +36,7 @@ header h1 {
     font-family: 'Bowlby One SC', cursive;
     font-size: 60px;
     color: #bbc085;
-    padding: 45px 0 65px 25px;
+    padding: 30px 0 65px 25px;
     text-shadow: -1px 1px 0 #000,
 				  1px 1px 0 #000,
 				 1px -1px 0 #000;
@@ -83,8 +83,15 @@ header h2 span {
 
 /***** ABOUT *****/
 #about {
-     background: #E6B89C;
-     }
+        background: linear-gradient(
+         to right,
+         #E6B89C 0%,
+         #E6B89C 50%,
+         #EAD2AC 50%,
+         #EAD2AC 100%
+        );
+}
+
 
  #about .full-width {
      padding: 10px 0;
@@ -106,6 +113,12 @@ header h2 span {
      padding-left: 50px;
      padding-right: 50px;
 
+ }
+
+ #about ol {
+   font-size: 40px;
+   padding-left: 100px;
+   line-height: 55px;
  }
 
   /***** PROJECTS *****/
@@ -196,14 +209,7 @@ header h2 span {
         1px -1px 0 #000;
        -1px -1px 0 #000;
 }
-#contact #email-header{
-    margin: -30px 0 5px 0;
-}
-#contact #socialmedia-header {
-    font-weight: bold;
-    font-size: 44px;
-    margin: 40px 0 0 0;
-}
+
 #contact a {
     text-decoration: none;
     color: #334147;
