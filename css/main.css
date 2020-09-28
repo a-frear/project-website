@@ -1,3 +1,8 @@
+html {
+  box-sizing: border-box;
+}
+
+
 /***** BASE STYLES *****/
 body {
       font-family: 'Source Sans Pro', sans-serif;
@@ -10,17 +15,20 @@ body {
     width: 1200px;
     margin: 0 auto;
     overflow: auto;
-}
+  }
 
  .half-width {
     width: 600px;
     float: left;
-
+    margin: 0 auto;
+    overflow: auto;
  }
 
  .third-width {
     width: 400px;
     float: left;
+    margin: 0 auto;
+    overflow: auto;
  }
 
  /***** HEADER *****/
@@ -52,7 +60,6 @@ nav ul li{
     display: inline-block;
 }
 nav ul li a {
-    text-transform: uppercase;
     text-decoration: none;
     font-size: 20px;
     color: #FE938C;
@@ -139,15 +146,15 @@ header h2 {
 
  /***** WORK *****/
 
- #non-tech-work {
+ #video {
       background-color: #334147;
       text-align: center;
       }
 
-#non-tech-work .full-width {
+#video .full-width {
           padding: 20px 0 20px 0;
       }
-#non-tech-work h2 {
+#video h2 {
     font-family: 'Bowlby One SC', cursive;
     color: #EAD2AC;
     font-size: 60px;
@@ -155,11 +162,11 @@ header h2 {
     text-align: left;
       }
 
-#non-tech-work img {
+#video img {
           padding-bottom: 30px;
       }
 
-#non-tech-work h3 {
+#video h3 {
           font-family: 'Share', cursive;
           font-size: 24px;
           color: #EAD2AC;
@@ -168,56 +175,54 @@ header h2 {
           margin: 0 auto;
       }
 
-#non-tech-work p {
+#video p {
           font-family: 'Share', cursive;
           color: #EAD2AC;
           font-size: 19px;
-          line-height: 30 px;
-          padding: 0 50px;
+          line-height: 30px;
+          padding: 0 20px;
       }
 
-       /***** contact *****/
+/***** contact *****/
 
 #contact {
-         background-color: #A3A3A3;
-         font-family: 'Share', cursive;
-
-       }
-
+        background-color: #A3A3A3;
+        font-family: 'Share', cursive;
+      }
 
 #contact .full-width {
-          padding: 50px 0;
+         padding: 20px 50px;
 }
 
-#contact img#contact-img {
-    padding-top: 50px;
-    margin-left: 25px;
+#cowboys  {
+   padding-top: 50px;
+   margin-left: 25px;
 }
 
 
 #contact h2, #contact, #email, #contact ul {
-    padding-left: 30px;
+   padding-left: 30px;
 }
 
 #contact h2 {
-    font-family: 'Bowlby One SC', cursive;
-    font-size: 100px;
-    color: #FE938C;
-    text-shadow: -1px 1px 0 #000,
-         1px 1px 0 #000,
-        1px -1px 0 #000;
-       -1px -1px 0 #000;
+   font-family: 'Bowlby One SC', cursive;
+   font-size: 100px;
+   color: #FE938C;
+   text-shadow: -1px 1px 0 #000,
+        1px 1px 0 #000,
+       1px -1px 0 #000;
+      -1px -1px 0 #000;
 }
 
 #contact a {
-    text-decoration: none;
-    color: #334147;
-    font-size: 30px;
-    text-align: right;
+   text-decoration: none;
+   color: #334147;
+   font-size: 30px;
+   text-align: right;
 }
 
 #email {
-        font-size: 100px;
+       font-size: 100px;
 
 }
 
@@ -227,11 +232,11 @@ header h2 {
 #email:active  { color: #FFD166;  }
 
 #contact ul {
-    list-style: none;
+   list-style: none;
 }
 #contact ul li {
-     display: inline-block;
+    display: inline-block;
 }
 #contact ul img {
-    padding-right: 48px;
+   padding-right: 48px;
 }
