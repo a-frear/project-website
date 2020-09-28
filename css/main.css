@@ -36,8 +36,23 @@ html {
 header h1 {
     font-family: 'Bowlby One SC', cursive;
     font-size: 75px;
+    margin-top: 10px;
+    margin-bottom: 0px;
     color: #bbc085;
-    padding: 0 0 65px 25px;
+    padding: 0 0 0 25px;
+    text-shadow: -1px 1px 0 #000,
+				  1px 1px 0 #000,
+				 1px -1px 0 #000;
+				-1px -1px 0 #000;
+}
+
+/* I want h2 to be a lot closer to h1 (below) but I can't quite get it there! */
+header h2 {
+    font-family: 'Bowlby One SC', cursive;
+    font-size: 45px;
+    margin: 0px;
+    color: #EAD2AC;
+    padding: 0 100px 0 25px;
     text-shadow: -1px 1px 0 #000,
 				  1px 1px 0 #000,
 				 1px -1px 0 #000;
@@ -46,7 +61,7 @@ header h1 {
 
 nav {
     font-family: 'Bowlby One SC', cursive;
-    padding: 75px 25px;
+    padding: 30px 25px;
 }
 nav ul li{
     display: inline-block;
@@ -63,7 +78,6 @@ nav ul li a {
 }
 
 /* for whenever I figure out what I want my career path to be... it will be written in the lower right hand corner, underneath the sneakers.
-
 header h2 {
     width: 1100px;
     clear: both;
