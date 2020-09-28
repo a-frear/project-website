@@ -2,13 +2,6 @@ html {
   box-sizing: border-box;
 }
 
-
-/***** BASE STYLES *****/
-body {
-      font-family: 'Source Sans Pro', sans-serif;
-      color: #2b2b2b;
-}
-
 /***** GRID *****/
 
 .full-width {
@@ -70,7 +63,7 @@ nav ul li a {
 				-1px -1px 0 #000;
 }
 
-/* for whenever I figure out what I want my career path to be... <h2> in header
+/* for whenever I figure out what I want my career path to be... it will be written in the lower right hand corner, underneath the sneakers.
 
 header h2 {
     width: 1100px;
@@ -98,9 +91,8 @@ header h2 {
         );
 }
 
-
  #about .full-width {
-     padding: 10px 0;
+     padding: 0 0;
  }
 
  #about h2 {
@@ -108,7 +100,6 @@ header h2 {
      color: #334147;
      font-size: 60px;
      padding-left: 50px;
-
  }
 
  #about p, ol {
@@ -118,7 +109,6 @@ header h2 {
      line-height: 50px;
      padding-left: 50px;
      padding-right: 50px;
-
  }
 
  #about ol {
@@ -140,9 +130,6 @@ header h2 {
    				-1px -1px 0 #000;
        }
 
-  #projects .full-width {
-                 padding: 20px 0;
-             }
 
  /***** WORK *****/
 
@@ -180,7 +167,7 @@ header h2 {
           color: #EAD2AC;
           font-size: 19px;
           line-height: 30px;
-          padding: 0 20px;
+          padding: 0 50px;
       }
 
 /***** contact *****/
