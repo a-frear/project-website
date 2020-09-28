@@ -31,8 +31,6 @@ html {
     background-image: url('../img/blob.jpg');
     background-size: cover;
     background-position: center;
-    margin: 0 auto;
-    overflow: hidden;
 }
 
 header h1 {
