@@ -95,6 +95,7 @@ header h2 span {
      color: #334147;
      font-size: 50px;
      padding-left: 50px;
+
  }
 
  #about p, ol {
@@ -132,7 +133,14 @@ header h2 span {
       }
 
 #non-tech-work .full-width {
-          padding: 95px 0;
+          padding: 30px 0;
+      }
+#non-tech-work h2 {
+    font-family: 'Bowlby One SC', cursive;
+    color: #EAD2AC;
+    font-size: 50px;
+    padding-left: 50px;
+    text-align: left;
       }
 
 #non-tech-work img {
@@ -182,7 +190,11 @@ header h2 span {
 #contact h2 {
     font-family: 'Bowlby One SC', cursive;
     font-size: 100px;
-    color: #334147;
+    color: #FE938C;
+    text-shadow: -1px 1px 0 #000,
+         1px 1px 0 #000,
+        1px -1px 0 #000;
+       -1px -1px 0 #000;
 }
 #contact #email-header{
     margin: -30px 0 5px 0;
@@ -200,10 +212,15 @@ header h2 span {
 }
 
 #email {
-        font-size: 50px;
+        font-size: 75px;
         padding-left: 115px;
 
 }
+
+#email:link    { color: #334147;  }
+#email:visited { color: #06D6A0;   }
+#email:hover   { color: #EF476F; }
+#email:active  { color: #FFD166;  }
 
 #contact ul {
     list-style: none;
