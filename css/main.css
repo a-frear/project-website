@@ -46,7 +46,6 @@ header h1 {
 
 nav {
     font-family: 'Bowlby One SC', cursive;
-    float: right;
     padding: 75px 25px;
 }
 nav ul li{
@@ -54,7 +53,7 @@ nav ul li{
 }
 nav ul li a {
     text-decoration: none;
-    font-size: 20px;
+    font-size: 22px;
     color: #FE938C;
     padding: 15px;
     text-shadow: -1px 1px 0 #000,
