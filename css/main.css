@@ -97,7 +97,7 @@ header h2 span {
      padding-left: 50px;
  }
 
- #about p {
+ #about p, ol {
      font-size: 28px;
      font-family: 'Share', cursive;
      color: #334147;
