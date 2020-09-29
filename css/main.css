@@ -47,7 +47,6 @@ header h1 {
 				-1px -1px 0 #000;
 }
 
-/* I want h2 to be a lot closer to h1 (below) but I can't quite get it there! */
 header h2 {
     font-family: 'Bowlby One SC', cursive;
     font-size: 40px;
@@ -117,6 +116,7 @@ nav ul li a {
    padding-left: 100px;
    line-height: 55px;
  }
+
 
   /***** PROJECTS *****/
   #projects {
