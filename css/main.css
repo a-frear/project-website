@@ -201,7 +201,7 @@ nav ul li a {
 #contact h2 {
    font-family: 'Bowlby One SC', cursive;
    font-size: 100px;
-   margin: 0px;
+   margin-top: 20px;
    color: #FE938C;
    text-shadow: -1px 1px 0 #000,
         1px 1px 0 #000,
@@ -224,7 +224,7 @@ nav ul li a {
 
 hr {
   border: 1px dotted #334147;
-  margin-bottom: 150px;
+  margin-bottom: 70px;
 }
 
 
