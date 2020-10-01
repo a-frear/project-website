@@ -27,6 +27,11 @@ body {
   margin: 10px;
 }
 
+.item-double {
+  flex: 3;
+  margin: 10px;
+}
+
 
 img {
  width: 100%;
@@ -36,30 +41,9 @@ img {
   align-items: flex-start;
 }
 
-.video-group {
-  space-around: 5;
-}
-
-.acting-pic {
-  width: 125%
-}
-
-.group-inc {
-  width: 105%
-}
 
 .icon {
   width: 50px;
-}
-
-/* -------  Spacers ------- */
-/* Note: There are better ways of creating space
-   in a web page, but this is an easy technique
-   for now. */
-
-.gap-sm {
-    height: 50px;
-    width: auto;
 }
 
  /***** HEADER *****/
@@ -86,7 +70,7 @@ header h1 {
 
 header h2 {
     font-family: 'Bowlby One SC', cursive;
-    font-size: 40px;
+    font-size: 50px;
     margin-top: 0px;
     margin-left: 90px;
     color: #EAD2AC;
@@ -99,14 +83,14 @@ header h2 {
 .main-nav, nav {
     font-family: 'Bowlby One SC', cursive;
     margin: 0px;
-    padding: 10px 25px;
+    padding: 5px 25px;
 }
 .main-nav, nav ul li{
     display: inline-flex;
 }
 .main-nav, nav ul li a {
     text-decoration: none;
-    font-size: 22px;
+    font-size: 30px;
     color: #FE938C;
     padding: 15px;
     text-shadow: -1px 1px 0 #000,
@@ -115,17 +99,17 @@ header h2 {
 				-1px -1px 0 #000;
 }
 
-/***** ABOUT *****/
-#about {
+/***** intro *****/
+#intro {
         background: #EAD2AC;
         margin: 0 auto;
 }
 
- #about .full-width {
+ #intro .full-width {
      padding: 0 0;
  }
 
- #about h2 {
+ #intro h2 {
      font-family: 'Bowlby One SC', cursive;
      color: #FE938C;
      margin-top: 100px;
@@ -136,29 +120,30 @@ header h2 {
         -1px -1px 0 #000;
  }
 
- #about p {
+ #intro p {
      font-size: 35px;
      font-family: 'Share', cursive;
      color: #334147;
      line-height: 50px;
  }
 
- #about img {
+ #intro img {
    margin: 70px;
    border: 10px solid #bbc085;
  }
 
+  /***** ABOUT *****/
 
-
-  /***** PROJECTS *****/
-  #projects {
+#about {
        background-color: #FE938C;
         margin: 0 auto;
+        display: flex;
        }
 
-#projects h2 {
+#about h2 {
     font-family: 'Bowlby One SC', cursive;
     color: #EAD2AC;
+    margin: 10px;
     font-size: 60px;
     text-shadow: -1px 1px 0 #000,
          1px 1px 0 #000,
@@ -166,56 +151,84 @@ header h2 {
        -1px -1px 0 #000;
 }
 
-#projects p, ul, li {
-    font-size: 28px;
+#about p, #about ul, #about li {
+    font-size: 30px;
     font-family: 'Share', cursive;
     color: #334147;
     line-height: 50px;
+    margin-bottom: 50px;
 }
 
-#projects ul, li {
+#about p {
+  margin-right: 30px;
+}
+
+#services {
+  border: 20px solid #334147;
+  background: #bbc085;
+  padding: 0px;
+  margin-left: 100px;
+  margin-right: 10px;
+}
+
+#about ul, #about li {
   font-size: 40px;
 }
 
 
+
  /***** WORK *****/
 
- #video {
+ #projects {
       background-color: #334147;
-      text-align: center;
       margin: 0 auto;
       }
 
-#video .full-width {
-          padding: 20px 0 20px 0;
-      }
-#video h2 {
+
+#projects h2 {
     font-family: 'Bowlby One SC', cursive;
     color: #EAD2AC;
     font-size: 60px;
     text-align: left;
     margin: 0px;
+    padding-top: 35px;
+    text-shadow: -1px 1px 0 #000,
+         1px 1px 0 #000,
+        1px -1px 0 #000;
+       -1px -1px 0 #000;
       }
 
-#video img {
+#stay-tuned {
+    font-family: 'Share', cursive;
+    padding: 0px;
+    margin-top: 0px;
+    margin-bottom: 35px;
+    text-align: left;
+    font-size: 20px;
+    color: #EAD2AC;
+}
+
+#projects img {
           padding-bottom: 30px;
       }
 
-#video h3 {
+#projects h3 {
           font-family: 'Share', cursive;
           font-size: 24px;
           color: #EAD2AC;
           line-height: 32px;
           margin: 0 auto;
           width: 190px;
+          text-align: center;
       }
 
-#video p {
+#projects p {
           font-family: 'Share', cursive;
           color: #EAD2AC;
           font-size: 19px;
           line-height: 30px;
-          padding: 0 50px;
+          padding: 0 25px 25px 25px;
+          text-align: justify;
       }
 
 /***** contact *****/
