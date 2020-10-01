@@ -2,27 +2,62 @@ html {
   box-sizing: border-box;
 }
 
-/***** GRID *****/
+body {
+  margin: 0;
+}
+ /* --- Groups & Items --- */
 
-.full-width {
-    width: 1200px;
-    margin: 0 auto;
-    overflow: auto;
+.group {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 100px;
+}
+
+@media all and (min-width: 800px) {
+
+  section, h1 {
+    padding: 0 10%;
   }
+  .group {
+    flex-direction: row;
+  }
+}
 
- .half-width {
-    width: 600px;
-    float: left;
-    margin: 0 auto;
-    overflow: auto;
- }
+.item {
+  flex: 1;
+  margin: 10px;
+}
 
- .third-width {
-    width: 400px;
-    float: left;
-    margin: 0 auto;
-    overflow: auto;
- }
+
+img {
+ width: 100%;
+}
+
+.name-position {
+  align-items: flex-start;
+}
+
+.video-group {
+  space-around: 5;
+}
+
+.acting-pic {
+  width: 125%
+}
+
+.icon {
+  width: 10%
+}
+
+/* -------  Spacers ------- */
+/* Note: There are better ways of creating space
+   in a web page, but this is an easy technique
+   for now. */
+
+.gap-sm {
+    height: 50px;
+    width: auto;
+}
 
  /***** HEADER *****/
 
@@ -51,7 +86,7 @@ header h2 {
     font-family: 'Bowlby One SC', cursive;
     font-size: 40px;
     margin-top: 0px;
-    margin-left: 25px;
+    margin-left: 90px;
     color: #EAD2AC;
     text-shadow: -1px 1px 0 #000,
 				  1px 1px 0 #000,
@@ -62,10 +97,10 @@ header h2 {
 nav {
     font-family: 'Bowlby One SC', cursive;
     margin: 0px;
-    padding: 30px 25px;
+    padding: 10px 25px;
 }
 nav ul li{
-    display: inline-block;
+    display: inline-flex;
 }
 nav ul li a {
     text-decoration: none;
@@ -231,9 +266,11 @@ hr {
 #contact ul {
    list-style: none;
 }
+
 #contact ul li {
     display: inline-block;
 }
+
 #contact ul img {
    padding-right: 48px;
 }
