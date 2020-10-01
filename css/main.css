@@ -10,7 +10,6 @@ body {
 .group {
   display: flex;
   flex-direction: column;
-  margin-bottom: 100px;
 }
 
 @media all and (min-width: 800px) {
@@ -50,7 +49,7 @@ img {
 }
 
 .icon {
-  width: 10%
+  width: 50px;
 }
 
 /* -------  Spacers ------- */
@@ -70,7 +69,6 @@ img {
     background-image: url('../img/blob.jpg');
     background-size: cover;
     background-position: center;
-    overflow: auto;
 }
 
 header h1 {
@@ -98,15 +96,15 @@ header h2 {
 				-1px -1px 0 #000;
 }
 
-nav {
+.main-nav, nav {
     font-family: 'Bowlby One SC', cursive;
     margin: 0px;
     padding: 10px 25px;
 }
-nav ul li{
+.main-nav, nav ul li{
     display: inline-flex;
 }
-nav ul li a {
+.main-nav, nav ul li a {
     text-decoration: none;
     font-size: 22px;
     color: #FE938C;
@@ -121,7 +119,6 @@ nav ul li a {
 #about {
         background: #EAD2AC;
         margin: 0 auto;
-        overflow: auto;
 }
 
  #about .full-width {
@@ -157,7 +154,6 @@ nav ul li a {
   #projects {
        background-color: #FE938C;
         margin: 0 auto;
-        overflow: auto;
        }
 
 #projects h2 {
@@ -188,7 +184,6 @@ nav ul li a {
       background-color: #334147;
       text-align: center;
       margin: 0 auto;
-      overflow: auto;
       }
 
 #video .full-width {
@@ -198,8 +193,8 @@ nav ul li a {
     font-family: 'Bowlby One SC', cursive;
     color: #EAD2AC;
     font-size: 60px;
-    padding-left: 50px;
     text-align: left;
+    margin: 0px;
       }
 
 #video img {
@@ -229,7 +224,6 @@ nav ul li a {
         background-color: #A3A3A3;
         font-family: 'Share', cursive;
         margin: 0 auto;
-        overflow: auto;
       }
 
 #contact .full-width {
@@ -272,6 +266,7 @@ nav ul li a {
 
 #contact ul {
    list-style: none;
+   display: flex;
 }
 
 #contact ul li {
