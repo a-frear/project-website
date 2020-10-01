@@ -45,6 +45,10 @@ img {
   width: 125%
 }
 
+.group-inc {
+  width: 105%
+}
+
 .icon {
   width: 10%
 }
@@ -115,13 +119,7 @@ nav ul li a {
 
 /***** ABOUT *****/
 #about {
-        background: linear-gradient(
-         to right,
-         #E6B89C 0%,
-         #E6B89C 50%,
-         #EAD2AC 50%,
-         #EAD2AC 100%
-        );
+        background: #EAD2AC;
         margin: 0 auto;
         overflow: auto;
 }
@@ -134,23 +132,20 @@ nav ul li a {
      font-family: 'Bowlby One SC', cursive;
      color: #334147;
      font-size: 60px;
-     padding-left: 50px;
  }
 
- #about p, ol {
+ #about p {
      font-size: 28px;
      font-family: 'Share', cursive;
      color: #334147;
      line-height: 50px;
-     padding-left: 50px;
-     padding-right: 50px;
  }
 
- #about ol {
-   font-size: 40px;
-   padding-left: 100px;
-   line-height: 55px;
+ #about img {
+   margin: 70px;
+   border: 10px solid #bbc085;
  }
+
 
 
   /***** PROJECTS *****/
@@ -256,12 +251,6 @@ nav ul li a {
 #email:visited { color: #06D6A0;   }
 #email:hover   { color: #EF476F; }
 #email:active  { color: #FFD166;  }
-
-hr {
-  border: 1px dotted #334147;
-  margin-bottom: 70px;
-}
-
 
 #contact ul {
    list-style: none;
