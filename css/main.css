@@ -47,13 +47,14 @@ img {
 header h1 {
     font-family: 'Bowlby One SC', cursive;
     color: #bbc085;
-    font-size: 50px;
+    font-size: 45px;
+    line-height: 40px;
     text-shadow: -1px 1px 0 #000,
          1px 1px 0 #000,
         1px -1px 0 #000;
        -1px -1px 0 #000;
     margin: 0px;
-    margin-bottom: -80px;
+    margin-bottom: -50px;
     padding-top: 20px;
     text-align: center
 }
@@ -61,7 +62,8 @@ header h1 {
 header h2 {
     font-family: 'Bowlby One SC', cursive;
     color: #EAD2AC;
-    font-size: 35px;
+    font-size: 30px;
+    line-height: 25px;
     text-shadow: -1px 1px 0 #000,
          1px 1px 0 #000,
         1px -1px 0 #000;
@@ -78,6 +80,7 @@ header nav {
 
 header nav ul {
     display: flex;
+    justify-content: center;
     list-style: none;
     padding-left: 0px;
     text-shadow: -1px 1px 0 #000,
@@ -90,9 +93,9 @@ header nav ul li a {
     font-family: 'Bowlby One SC', cursive;
     text-decoration: none;
     list-style: none;
-    font-size: 25px;
+    font-size: 20px;
     color: #FE938C;
-    margin: 0 20px 0 0
+    margin: 0 15px 0 0
 }
 
 header nav ul li:last-child a {
@@ -116,6 +119,7 @@ margin-right: 0;
       justify-content: flex-start;
       font-size: 75px;
       color: #bbc085;
+      line-height: 65px;
       text-shadow: -1px 1px 0 #000,
             1px 1px 0 #000,
            1px -1px 0 #000;
@@ -126,6 +130,7 @@ margin-right: 0;
     display: flex;
     justify-content: flex-start;
     font-size: 50px;
+    line-height: 45px;
     color: #EAD2AC;
   }
 
@@ -145,7 +150,7 @@ margin-right: 0;
 #intro {
       background: #EAD2AC;
       margin: 0 auto;
-      padding: 25px;
+      padding: 15px;
       display: flex;
       flex-direction: column-reverse;
 
@@ -154,7 +159,7 @@ margin-right: 0;
 #intro h2 {
    font-family: 'Bowlby One SC', cursive;
    color: #FE938C;
-   font-size: 50px;
+   font-size: 40px;
    text-align: center;
    text-shadow: -1px 1px 0 #000,
         1px 1px 0 #000,
@@ -166,7 +171,6 @@ margin-right: 0;
   font-size: 25px;
   background: #EAD2AC;
   font-family: 'Share', cursive;
-  font-size: 25px;
   text-align: justify;
 }
 
@@ -208,14 +212,14 @@ margin-right: 0;
           margin: 0 auto;
           display: flex;
           flex-direction: column;
-          padding: 25px;
+          padding: 15px;
          }
 
   #about h2 {
       font-family: 'Bowlby One SC', cursive;
       color: #EAD2AC;
       margin: 10px;
-      font-size: 50px;
+      font-size: 40px;
       text-shadow: -1px 1px 0 #000,
            1px 1px 0 #000,
           1px -1px 0 #000;
@@ -223,7 +227,7 @@ margin-right: 0;
   }
 
   #about p, #about ul, #about li {
-      font-size: 35px;
+      font-size: 25px;
       font-family: 'Share', cursive;
       color: #334147;
       line-height: 40px;
@@ -239,7 +243,7 @@ margin-right: 0;
   }
 
   #about ul, #about li {
-    font-size: 40px;
+    font-size: 35px;
   }
 
 
@@ -254,7 +258,7 @@ margin-right: 0;
       font-family: 'Bowlby One SC', cursive;
       color: #EAD2AC;
       margin: 10px;
-      font-size: 60px;
+      font-size: 40px;
       text-shadow: -1px 1px 0 #000,
            1px 1px 0 #000,
           1px -1px 0 #000;
@@ -304,7 +308,7 @@ margin-right: 0;
 #projects h2 {
     font-family: 'Bowlby One SC', cursive;
     color: #EAD2AC;
-    font-size: 50px;
+    font-size: 40px;
     text-align: left;
     margin: 0px;
     padding-top: 35px;
@@ -327,13 +331,14 @@ margin-right: 0;
 
 #projects img {
           padding: 15px;
+          width: 80%;
       }
 
 #projects h3 {
           font-family: 'Share', cursive;
-          font-size: 30px;
+          font-size: 25px;
           color: #EAD2AC;
-          line-height: 32px;
+          line-height: 25px;
           margin: 0 auto;
           width: 190px;
           text-align: center;
@@ -342,8 +347,8 @@ margin-right: 0;
 #projects p {
           font-family: 'Share', cursive;
           color: #EAD2AC;
-          font-size: 25px;
-          line-height: 30px;
+          font-size: 20px;
+          line-height: 25px;
           padding: 0 25px 25px 25px;
           text-align: justify;
       }
