@@ -355,8 +355,6 @@ margin-right: 0;
 }
 
 #projects img {
-          display: flex;
-          justify-content: center;
           padding-bottom: 15px;
           width: 100%;
       }
