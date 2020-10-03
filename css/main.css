@@ -13,7 +13,7 @@ body {
   justify-content: center;
 }
 
-@media all and (min-width: 600px) {
+@media all and (min-width: 800px) {
 
     .group {
       display: flex;
@@ -29,9 +29,10 @@ img {
   width: 100%
 }
 
-  .icon {
-    width: 50px;
-  }
+.icon {
+  width: 50px;
+}
+
 
 }
 
@@ -99,16 +100,16 @@ header nav ul li a {
     font-family: 'Bowlby One SC', cursive;
     text-decoration: none;
     list-style: none;
-    font-size: 20px;
+    font-size: 15px;
     color: #FE938C;
-    margin: 0 15px 0 0
+    margin: 0 5px 0 0
 }
 
 header nav ul li:last-child a {
 margin-right: 0;
 }
 
- @media all and (min-width: 600px) {
+ @media all and (min-width: 800px) {
 
    header {
     display: flex;
@@ -148,6 +149,7 @@ margin-right: 0;
 
   header nav ul li a {
         font-size: 35px;
+        margin: 0 20px 0 0
   }
 }
 
@@ -167,7 +169,7 @@ margin-right: 0;
     justify-content: center;
    font-family: 'Bowlby One SC', cursive;
    color: #FE938C;
-   font-size: 45px;
+   font-size: 40px;
    text-align: center;
    text-shadow: -1px 1px 0 #000,
         1px 1px 0 #000,
@@ -189,7 +191,7 @@ margin-right: 0;
 }
 
 
- @media all and (min-width: 600px) {
+ @media all and (min-width: 800px) {
    #intro {
           display: flex;
           flex-direction: row;
@@ -197,7 +199,7 @@ margin-right: 0;
 
     #intro h2 {
        margin-top: 100px;
-       font-size: 75px;
+       font-size: 80px;
     }
 
     #intro p {
@@ -220,6 +222,7 @@ margin-right: 0;
           margin: 0 auto;
           display: flex;
           flex-direction: column;
+          justify-content: center;
           padding: 15px;
          }
 
@@ -229,7 +232,7 @@ margin-right: 0;
       font-family: 'Bowlby One SC', cursive;
       color: #EAD2AC;
       margin: 10px;
-      font-size: 45px;
+      font-size: 30px;
       text-shadow: -1px 1px 0 #000,
            1px 1px 0 #000,
           1px -1px 0 #000;
@@ -237,7 +240,7 @@ margin-right: 0;
   }
 
   #about p, #about ul, #about li {
-      font-size: 25px;
+      font-size: 18px;
       font-family: 'Share', cursive;
       color: #334147;
       line-height: 40px;
@@ -253,11 +256,11 @@ margin-right: 0;
   }
 
   #about ul, #about li {
-    font-size: 35px;
+    font-size: 25px;
   }
 
 
- @media all and (min-width: 600px) {
+ @media all and (min-width: 800px) {
   #about {
          background-color: #FE938C;
           margin: 0 auto;
@@ -265,15 +268,18 @@ margin-right: 0;
          }
 
   #about h2 {
+      display: flex;
+      justify-content: flex-start;
       font-family: 'Bowlby One SC', cursive;
       color: #EAD2AC;
       margin: 10px;
       font-size: 60px;
+      text-align: right;
       text-shadow: -1px 1px 0 #000,
            1px 1px 0 #000,
           1px -1px 0 #000;
          -1px -1px 0 #000;
-      display: flex;
+
   }
 
   #about p, #about ul, #about li {
@@ -318,7 +324,7 @@ margin-right: 0;
 #projects h2 {
     font-family: 'Bowlby One SC', cursive;
     color: #EAD2AC;
-    font-size: 40px;
+    font-size: 30px;
     text-align: left;
     margin: 0px;
     padding-top: 35px;
@@ -330,23 +336,27 @@ margin-right: 0;
       }
 
 #stay-tuned {
+    display: flex;
+    justify-content: center;
     font-family: 'Share', cursive;
     padding: 0px;
     margin-top: 0px;
     margin-bottom: 35px;
     text-align: left;
-    font-size: 20px;
+    font-size: 15px;
     color: #EAD2AC;
 }
 
 #projects img {
+          display: flex;
+          justify-content: center;
           padding: 15px;
-          width: 60%;
+          width: 80%;
       }
 
 #projects h3 {
           font-family: 'Share', cursive;
-          font-size: 25px;
+          font-size: 20px;
           color: #EAD2AC;
           line-height: 25px;
           margin: 0 auto;
@@ -357,13 +367,13 @@ margin-right: 0;
 #projects p {
           font-family: 'Share', cursive;
           color: #EAD2AC;
-          font-size: 20px;
+          font-size: 15px;
           line-height: 25px;
           padding: 0 25px 25px 25px;
           text-align: justify;
       }
 
- @media all and (min-width: 600px) {
+ @media all and (min-width: 800px) {
 
    #projects {
      padding: 15px;
@@ -378,6 +388,8 @@ margin-right: 0;
       }
 
 #stay-tuned {
+    display: flex;
+    justify-content: flex-start;
     padding-left: 15px;
     margin-top: 0px;
     margin-bottom: 35px;
@@ -418,24 +430,25 @@ margin-right: 0;
 
 
 #contact h2 {
-  display: flex;
-  justify-content: center;
+    display: flex;
+    justify-content: center;
    font-family: 'Bowlby One SC', cursive;
    text-align: center;
-   font-size: 55px;
+   font-size: 50px;
    margin-top: 20px;
    color: #FE938C;
    text-shadow: -1px 1px 0 #000,
         1px 1px 0 #000,
        1px -1px 0 #000;
       -1px -1px 0 #000;
-    display: flex;
 }
 
 #email {
+  display: flex;
+  justify-content: center;
    text-decoration: none;
    color: #334147;
-   font-size: 30px;
+   font-size: 35px;
    text-align: center;
 }
 
@@ -446,22 +459,22 @@ margin-right: 0;
 #email:active  { color: #FFD166;  }
 
 #contact ul {
+  display: inline-flex;
    list-style: none;
-   display: flex;
 }
 
 #contact ul li {
-  display: flex;
-  justify-content: center;
+  display: inline-flex;
 }
 
 #contact ul img {
-   padding-right: 60px;
-   padding-bottom: 20px;
-   width: 70%
+    display: inline-flex;
+   padding-right: 15px;
+   padding-bottom: 10px;
+   width: 50%
 }
 
- @media all and (min-width: 600px) {
+ @media all and (min-width: 800px) {
 
   #contact {
           display: flex;
@@ -483,6 +496,7 @@ margin-right: 0;
      font-size: 100px;
      text-align: left;
      margin-top: 20px;
+     margin-bottom: -10px;
      padding: 20px;
      color: #FE938C;
      text-shadow: -1px 1px 0 #000,
@@ -495,7 +509,8 @@ margin-right: 0;
   #email  {
      text-decoration: none;
      color: #334147;
-     font-size: 40px;
+     font-size: 60px;
+     text-align: left;
   }
 
   #email:link    { color: #334147;  }
@@ -503,10 +518,6 @@ margin-right: 0;
   #email:hover   { color: #EF476F; }
   #email:active  { color: #FFD166;  }
 
-  #email {
-      text-align: left;
-      padding-right: 220px;
-  }
 
   #contact ul {
      list-style: none;
@@ -520,6 +531,9 @@ margin-right: 0;
   #contact ul img {
      padding-right: 48px;
      padding-bottom: 0px;
+     width: 110px;
   }
+
+
 
 }
