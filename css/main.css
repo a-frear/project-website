@@ -13,7 +13,7 @@ body {
   justify-content: center;
 }
 
-@media all and (min-width: 800px) {
+@media all and (min-width: 1000px) {
 
     .group {
       display: flex;
@@ -109,7 +109,7 @@ header nav ul li:last-child a {
 margin-right: 0;
 }
 
- @media all and (min-width: 800px) {
+ @media all and (min-width: 1000px) {
 
    header {
     display: flex;
@@ -192,7 +192,7 @@ margin-right: 0;
 }
 
 
- @media all and (min-width: 800px) {
+ @media all and (min-width: 1000px) {
    #intro {
           display: flex;
           flex-direction: row;
@@ -261,7 +261,7 @@ margin-right: 0;
   }
 
 
- @media all and (min-width: 800px) {
+ @media all and (min-width: 1000px) {
   #about {
          background-color: #FE938C;
           margin: 0 auto;
@@ -374,7 +374,7 @@ margin-right: 0;
           text-align: justify;
       }
 
- @media all and (min-width: 800px) {
+ @media all and (min-width: 1000px) {
 
    #projects {
      padding: 15px;
@@ -475,7 +475,7 @@ margin-right: 0;
    width: 50%
 }
 
- @media all and (min-width: 800px) {
+ @media all and (min-width: 1000px) {
 
   #contact {
           display: flex;
