@@ -161,18 +161,17 @@ margin-right: 0;
 #intro {
       background: #EAD2AC;
       margin: 0 auto;
-      padding: 15px;
       display: flex;
+      padding: 15px;
       flex-direction: column-reverse;
+      justify-content: center;
 
 }
 
 #intro h2 {
-    display: flex;
-    justify-content: center;
    font-family: 'Bowlby One SC', cursive;
    color: #FE938C;
-   font-size: 40px;
+   font-size: 50px;
    text-align: center;
    text-shadow: -1px 1px 0 #000,
         1px 1px 0 #000,
@@ -188,9 +187,11 @@ margin-right: 0;
 }
 
 #intro img {
-      border: 10px solid #bbc085;
-      width: 80%;
-      margin: 20px;
+      border: 5px solid #bbc085;
+      display: flex;
+      justify-content: center;
+      width: 100%;
+
 }
 
 
@@ -215,7 +216,10 @@ margin-right: 0;
     }
 
     #intro img {
+      display: flex;
+      border: 10px solid #bbc085;
       margin: 45px;
+      width: 80%
     }
 }
 
@@ -353,8 +357,8 @@ margin-right: 0;
 #projects img {
           display: flex;
           justify-content: center;
-          padding: 15px;
-          width: 80%;
+          padding-bottom: 15px;
+          width: 100%;
       }
 
 #projects h3 {
@@ -416,9 +420,8 @@ margin-right: 0;
 #contact {
         background-color: #A3A3A3;
         font-family: 'Share', cursive;
-        text-align: center;
         margin: 0 auto;
-        padding: 25px;
+        padding: 15px;
         padding-bottom: 75px;
         display: flex;
         flex-direction: column;
@@ -427,8 +430,7 @@ margin-right: 0;
 
 
 #cowboys  {
-  border: 10px solid #bbc085;
-   width: 85%
+   width: 100%
 }
 
 
@@ -437,8 +439,9 @@ margin-right: 0;
     justify-content: center;
    font-family: 'Bowlby One SC', cursive;
    text-align: center;
-   font-size: 50px;
-   margin-top: 20px;
+   font-size: 100px;
+   margin-top: 10px;
+   margin-bottom: 10px;
    color: #FE938C;
    text-shadow: -1px 1px 0 #000,
         1px 1px 0 #000,
@@ -446,7 +449,51 @@ margin-right: 0;
       -1px -1px 0 #000;
 }
 
-#email {
+fieldset{
+  padding: 10px 12px;
+  margin: 35px 0 20px 0;
+  border: 10px solid #bbc085;
+}
+
+legend {
+  display: flex;
+  justify-content: flex-start;
+  background-color: #FE938C;
+  color: #334147
+  border: 2px solid #334147;
+  font-size: 35px;
+}
+
+form label {
+  display: block;
+  font-size: 20px;
+  margin-top: 15px;
+  margin-bottom: 10px;
+  color: #334147;
+  text-align: left;
+}
+
+form textarea {
+  height: 4.75rem;
+  width: 100%;
+  color: #334147;
+  font-size: 16px;
+  margin-bottom: 20px;
+  text-align: left;
+}
+
+form button {
+    padding: 10px 16px;
+    border-radius: 10px;
+    border: 1px solid #334147;
+    font-size: 30px;
+    background: #FE938C;
+    color: #334147;
+    margin: 0 8px 10px 0;
+    width: 100%
+}
+
+/* #email {
   display: flex;
   justify-content: center;
    text-decoration: none;
@@ -460,6 +507,8 @@ margin-right: 0;
 #email:visited { color: #06D6A0;   }
 #email:hover   { color: #EF476F; }
 #email:active  { color: #FFD166;  }
+
+*/
 
 #contact ul {
   display: inline-flex;
@@ -485,26 +534,29 @@ margin-right: 0;
         }
 
   #cowboys {
+    display: flex;
+    justify-content: flex-end;
     margin-top: 30px;
   }
 
 
   #contact h2 {
+    display: flex;
+    justify-content: flex-start;
      font-family: 'Bowlby One SC', cursive;
-     font-size: 105px;
-     text-align: left;
-     margin-top: 10px;
-     margin-bottom: -15px;
-     padding: 40px;
+     font-size: 70px;
      color: #FE938C;
      text-shadow: -1px 1px 0 #000,
           1px 1px 0 #000,
          1px -1px 0 #000;
         -1px -1px 0 #000;
-      display: flex;
   }
 
-  #email  {
+  fieldset{
+    margin: 145px 0 75px 0;
+  }
+
+  /* #email  {
      text-decoration: none;
      color: #334147;
      font-size: 50px;
@@ -516,6 +568,7 @@ margin-right: 0;
   #email:visited { color: #06D6A0;   }
   #email:hover   { color: #EF476F; }
   #email:active  { color: #FFD166;  }
+   */
 
 
   #contact ul {

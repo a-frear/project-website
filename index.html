@@ -40,7 +40,7 @@
                     <p>I live in Philadelphia. I love using code to solve problems and to create websites that are accessible and fun. </p>
                   </div>
                   <div class="item">
-                  <img src="img/amy-hs.jpg" width=600 alt="Amy Frear Headshot">
+                  <img src="img/amy-hs.jpg" width=300 alt="Amy Frear Headshot">
                   </div>
              </div>
           </section>
@@ -86,16 +86,35 @@
           <footer id="contact"  class="group">
               <div class="group">
                   <div class="item">
+                    <h2>Say Howdy!</h2>
                       <img src="img/cowboys.png" width=550 id="cowboys" alt="Contact Image"/>
                   </div>
                   <div class="item">
-                      <h2>Say howdy!</h2>
+                        <form action="https://formspree.io/amy.frear@gmail.com" method="post">
+                          <fieldset>
+                               <legend>Email:</legend>
+                               <div>
+                                 <label for="name">Name:</label>
+                                 <input id="name" type="text" name="name"></input>
+                              <div>
+                                 <label for="email">Email:</label>
+                                 <input id="email" type="text" name="email"></input>
+                             </div>
+                             <div>
+                                 <label for="message">Message:</label>
+                                 <textarea id="message" type="text" name="message"></textarea>
+                              </div>
+                               </fieldset>
+
+                                <button type="submit">Submit</button>
+                        </form>
+                        <div>
                           <ul id="symbols">
                             <li><a href="https://www.linkedin.com/in/amy-frear-988a8123" target="_blank"><img src="img/linkedin-gray.png" width=50 class="icon" alt="Linkedin icon"/></a></li>
                             <li><a href="https://github.com/a-frear" target="_blank"><img src="img/github-gray.png" width=50 class="icon" alt="Github icon"/></a></li>
                             <li><a href="https://vimeo.com/amyfrear" target="_blank"><img src="img/vimeo-gray.png" width=50 class="icon" alt="Vimeo icon"/></a></li>
                           </ul>
-                          <a id="email" href="mailto:amy.frear@gmail.com" target="_blank">amy.frear @ gmail.com</a>
+                          <!--<a id="email" href="mailto:amy.frear@gmail.com" target="_blank">amy.frear @ gmail.com</a>-->
               </div>
             </div>
           </footer>
