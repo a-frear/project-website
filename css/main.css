@@ -125,6 +125,7 @@ margin-right: 0;
       display: flex;
       justify-content: flex-start;
       font-size: 75px;
+      padding-left: 15px;
       margin-bottom: -70px;
       color: #bbc085;
       line-height: 65px;
@@ -140,6 +141,7 @@ margin-right: 0;
     font-size: 50px;
     line-height: 45px;
     color: #EAD2AC;
+    padding-left: 15px;
   }
 
   header nav {
