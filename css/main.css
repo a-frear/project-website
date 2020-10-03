@@ -45,21 +45,25 @@ img {
 }
 
 header h1 {
+    display: flex;
+    justify-content: center;
     font-family: 'Bowlby One SC', cursive;
     color: #bbc085;
-    font-size: 45px;
-    line-height: 40px;
+    font-size: 50px;
+    line-height: 45px;
+    text-align: center;
     text-shadow: -1px 1px 0 #000,
          1px 1px 0 #000,
         1px -1px 0 #000;
        -1px -1px 0 #000;
     margin: 0px;
-    margin-bottom: -50px;
+    margin-bottom: -40px;
     padding-top: 20px;
-    text-align: center
 }
 
 header h2 {
+    display: flex;
+    justify-content: center;
     font-family: 'Bowlby One SC', cursive;
     color: #EAD2AC;
     font-size: 30px;
@@ -90,6 +94,8 @@ header nav ul {
 
 }
 header nav ul li a {
+    display: flex;
+    justify-content: center;
     font-family: 'Bowlby One SC', cursive;
     text-decoration: none;
     list-style: none;
@@ -157,9 +163,11 @@ margin-right: 0;
 }
 
 #intro h2 {
+    display: flex;
+    justify-content: center;
    font-family: 'Bowlby One SC', cursive;
    color: #FE938C;
-   font-size: 40px;
+   font-size: 45px;
    text-align: center;
    text-shadow: -1px 1px 0 #000,
         1px 1px 0 #000,
@@ -216,10 +224,12 @@ margin-right: 0;
          }
 
   #about h2 {
+      display: flex;
+      justify-content: center;
       font-family: 'Bowlby One SC', cursive;
       color: #EAD2AC;
       margin: 10px;
-      font-size: 40px;
+      font-size: 45px;
       text-shadow: -1px 1px 0 #000,
            1px 1px 0 #000,
           1px -1px 0 #000;
@@ -331,7 +341,7 @@ margin-right: 0;
 
 #projects img {
           padding: 15px;
-          width: 80%;
+          width: 60%;
       }
 
 #projects h3 {
@@ -408,9 +418,11 @@ margin-right: 0;
 
 
 #contact h2 {
+  display: flex;
+  justify-content: center;
    font-family: 'Bowlby One SC', cursive;
    text-align: center;
-   font-size: 75px;
+   font-size: 55px;
    margin-top: 20px;
    color: #FE938C;
    text-shadow: -1px 1px 0 #000,
@@ -439,12 +451,14 @@ margin-right: 0;
 }
 
 #contact ul li {
-    display: inline-block;
+  display: flex;
+  justify-content: center;
 }
 
 #contact ul img {
    padding-right: 60px;
    padding-bottom: 20px;
+   width: 70%
 }
 
  @media all and (min-width: 600px) {
