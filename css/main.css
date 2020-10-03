@@ -182,7 +182,7 @@ margin-right: 0;
   font-size: 25px;
   background: #EAD2AC;
   font-family: 'Share', cursive;
-  text-align: justify;
+  text-align: left;
 }
 
 #intro img {
@@ -252,7 +252,7 @@ margin-right: 0;
   #services {
     border: 20px solid #334147;
     background: #bbc085;
-    padding: 15px;
+    padding: 5px;
 
   }
 
@@ -487,18 +487,13 @@ margin-right: 0;
   }
 
 
-
-  #contact h2, #contact, #email, #contact ul {
-     padding-left: 30px;
-  }
-
   #contact h2 {
      font-family: 'Bowlby One SC', cursive;
-     font-size: 100px;
+     font-size: 105px;
      text-align: left;
      margin-top: 20px;
      margin-bottom: -10px;
-     padding: 20px;
+     padding: 45px;
      color: #FE938C;
      text-shadow: -1px 1px 0 #000,
           1px 1px 0 #000,
