@@ -55,7 +55,7 @@ header h1 {
     text-align: center;
     text-shadow: -1px 1px 0 #000,
          1px 1px 0 #000,
-        1px -1px 0 #000;
+        1px -1px 0 #000,
        -1px -1px 0 #000;
     margin: 0px;
     margin-bottom: -40px;
@@ -71,7 +71,7 @@ header h2 {
     line-height: 25px;
     text-shadow: -1px 1px 0 #000,
          1px 1px 0 #000,
-        1px -1px 0 #000;
+        1px -1px 0 #000,
        -1px -1px 0 #000;
     padding-top: 30px;
     text-align: center
@@ -90,7 +90,7 @@ header nav ul {
     padding-left: 0px;
     text-shadow: -1px 1px 0 #000,
           1px 1px 0 #000,
-         1px -1px 0 #000;
+         1px -1px 0 #000,
         -1px -1px 0 #000;
 
 }
@@ -131,7 +131,7 @@ margin-right: 0;
       line-height: 65px;
       text-shadow: -1px 1px 0 #000,
             1px 1px 0 #000,
-           1px -1px 0 #000;
+           1px -1px 0 #000,
           -1px -1px 0 #000;
   }
 
@@ -175,7 +175,7 @@ margin-right: 0;
    text-align: center;
    text-shadow: -1px 1px 0 #000,
         1px 1px 0 #000,
-       1px -1px 0 #000;
+       1px -1px 0 #000,
       -1px -1px 0 #000;
 }
 
@@ -242,7 +242,7 @@ margin-right: 0;
       font-size: 30px;
       text-shadow: -1px 1px 0 #000,
            1px 1px 0 #000,
-          1px -1px 0 #000;
+          1px -1px 0 #000,
          -1px -1px 0 #000;
   }
 
@@ -284,7 +284,7 @@ margin-right: 0;
       text-align: right;
       text-shadow: -1px 1px 0 #000,
            1px 1px 0 #000,
-          1px -1px 0 #000;
+          1px -1px 0 #000,
          -1px -1px 0 #000;
 
   }
@@ -337,7 +337,7 @@ margin-right: 0;
     padding-top: 35px;
     text-shadow: -1px 1px 0 #000,
          1px 1px 0 #000,
-        1px -1px 0 #000;
+        1px -1px 0 #000,
        -1px -1px 0 #000;
       display: flex;
       }
@@ -445,7 +445,7 @@ margin-right: 0;
    color: #FE938C;
    text-shadow: -1px 1px 0 #000,
         1px 1px 0 #000,
-       1px -1px 0 #000;
+       1px -1px 0 #000,
       -1px -1px 0 #000;
 }
 
@@ -459,7 +459,7 @@ legend {
   display: flex;
   justify-content: flex-start;
   background-color: #FE938C;
-  color: #334147
+  color: #334147;
   border: 2px solid #334147;
   font-size: 35px;
 }
