@@ -493,13 +493,8 @@ form button {
     width: 100%
 }
 
-/* #email {
-  display: flex;
-  justify-content: center;
-   text-decoration: none;
+#email {
    color: #334147;
-   font-size: 35px;
-   text-align: center;
 }
 
 
@@ -508,7 +503,7 @@ form button {
 #email:hover   { color: #EF476F; }
 #email:active  { color: #FFD166;  }
 
-*/
+
 
 #contact ul {
   display: inline-flex;
@@ -544,7 +539,7 @@ form button {
     display: flex;
     justify-content: flex-start;
      font-family: 'Bowlby One SC', cursive;
-     font-size: 70px;
+     font-size: 80px;
      color: #FE938C;
      text-shadow: -1px 1px 0 #000,
           1px 1px 0 #000,
@@ -553,37 +548,26 @@ form button {
   }
 
   fieldset{
-    margin: 145px 0 75px 0;
+    margin: 160px 0 75px 0;
   }
 
-  /* #email  {
+#email  {
      text-decoration: none;
      color: #334147;
-     font-size: 50px;
-     text-align: left;
-     padding-right: 75px;
+     font-size: inherit;
   }
 
   #email:link    { color: #334147;  }
   #email:visited { color: #06D6A0;   }
   #email:hover   { color: #EF476F; }
   #email:active  { color: #FFD166;  }
-   */
 
 
-  #contact ul {
-     list-style: none;
-     display: flex;
-  }
-
-  #contact ul li {
-      display: inline-block;
-  }
 
   #contact ul img {
-     padding-right: 48px;
+    padding-right: 30px;
      padding-bottom: 0px;
-     width: 110px;
+     width: 90px;
   }
 
 
