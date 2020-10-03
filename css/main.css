@@ -125,6 +125,7 @@ margin-right: 0;
       display: flex;
       justify-content: flex-start;
       font-size: 75px;
+      margin-bottom: -70px;
       color: #bbc085;
       line-height: 65px;
       text-shadow: -1px 1px 0 #000,
@@ -337,7 +338,7 @@ margin-right: 0;
 
 #stay-tuned {
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
     font-family: 'Share', cursive;
     padding: 0px;
     margin-top: 0px;
