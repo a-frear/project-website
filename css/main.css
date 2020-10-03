@@ -474,6 +474,7 @@ form label {
 }
 
 form textarea {
+  display: flex;
   height: 4.75rem;
   width: 100%;
   color: #334147;
