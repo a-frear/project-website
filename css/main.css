@@ -42,12 +42,10 @@ img {
   background-image: url('../img/blob.jpg');
   background-size: cover;
   background-position: center;
-  padding: 15px;
+  padding: 10px;
 }
 
 header h1 {
-    display: flex;
-    justify-content: center;
     font-family: 'Bowlby One SC', cursive;
     color: #bbc085;
     font-size: 50px;
@@ -63,8 +61,6 @@ header h1 {
 }
 
 header h2 {
-    display: flex;
-    justify-content: center;
     font-family: 'Bowlby One SC', cursive;
     color: #EAD2AC;
     font-size: 30px;
@@ -112,9 +108,6 @@ margin-right: 0;
  @media all and (min-width: 1000px) {
 
    header {
-    display: flex;
-    flex-direction: row;
-    padding: 0 30px;
     height: 765px;
     background-image: url('../img/blob.jpg');
     background-size: cover;
@@ -122,31 +115,18 @@ margin-right: 0;
   }
 
   header h1 {
-      display: flex;
-      justify-content: flex-start;
       font-size: 75px;
-      padding-left: 15px;
       margin-bottom: -70px;
-      color: #bbc085;
       line-height: 65px;
-      text-shadow: -1px 1px 0 #000,
-            1px 1px 0 #000,
-           1px -1px 0 #000,
-          -1px -1px 0 #000;
+ 
   }
 
   header h2 {
-    display: flex;
-    justify-content: flex-start;
     font-size: 50px;
     line-height: 45px;
-    color: #EAD2AC;
-    padding-left: 15px;
   }
 
   header nav {
-    display: flex;
-    justify-content: flex-end;
       margin-top: 14px;
   }
 
@@ -163,8 +143,9 @@ margin-right: 0;
       margin: 0 auto;
       display: flex;
       padding: 15px;
-      flex-direction: column-reverse;
-      justify-content: center;
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
 
 }
 
@@ -172,7 +153,6 @@ margin-right: 0;
    font-family: 'Bowlby One SC', cursive;
    color: #FE938C;
    font-size: 50px;
-   text-align: center;
    text-shadow: -1px 1px 0 #000,
         1px 1px 0 #000,
        1px -1px 0 #000,
@@ -183,22 +163,18 @@ margin-right: 0;
   font-size: 25px;
   background: #EAD2AC;
   font-family: 'Share', cursive;
-  text-align: center;
 }
 
 #intro img {
       border: 5px solid #bbc085;
-      display: flex;
-      justify-content: center;
       width: 100%;
-
+      max-width: 450px;
 }
 
 
  @media all and (min-width: 1000px) {
    #intro {
-          display: flex;
-          flex-direction: row;
+          flex-direction: row-reverse;
     }
 
     #intro h2 {
@@ -216,7 +192,6 @@ margin-right: 0;
     }
 
     #intro img {
-      display: flex;
       border: 10px solid #bbc085;
       margin: 45px;
       width: 80%
@@ -229,13 +204,12 @@ margin-right: 0;
           margin: 0 auto;
           display: flex;
           flex-direction: column;
-          justify-content: center;
+          align-items: center;
+          text-align: center;
           padding: 15px;
          }
 
   #about h2 {
-      display: flex;
-      justify-content: center;
       font-family: 'Bowlby One SC', cursive;
       color: #EAD2AC;
       margin: 10px;
@@ -258,8 +232,8 @@ margin-right: 0;
   #services {
     border: 20px solid #334147;
     background: #bbc085;
-    padding: 5px;
-
+    padding: 40px;
+    max-width: 500px;
   }
 
   #about ul, #about li {
@@ -271,7 +245,8 @@ margin-right: 0;
   #about {
          background-color: #FE938C;
           margin: 0 auto;
-          display: flex;
+          flex-direction: row;
+          justify-content: flex-start;
          }
 
   #about h2 {
@@ -295,6 +270,7 @@ margin-right: 0;
       color: #334147;
       line-height: 50px;
       margin-bottom: 50px;
+      text-align: left;
   }
 
   #about p {
