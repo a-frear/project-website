@@ -140,8 +140,6 @@ margin-right: 0;
       background: #EAD2AC;
       margin: 0 auto;
       padding: 10px;
-      display: flex;
-      flex-direction: column;
       align-items: center;
       text-align: center;
 
@@ -167,7 +165,7 @@ margin-right: 0;
 #intro img {
       border: 5px solid #bbc085;
       width: 100%;
-      max-width: 450px;
+      max-width: 400px;
 }
 
 
@@ -201,8 +199,6 @@ margin-right: 0;
   #about {
          background-color: #FE938C;
           margin: 0 auto;
-          display: flex;
-          flex-direction: column;
           align-items: center;
           text-align: center;
           padding: 15px;
@@ -212,7 +208,7 @@ margin-right: 0;
       font-family: 'Bowlby One SC', cursive;
       color: #EAD2AC;
       margin: 10px;
-      font-size: 50px;
+      font-size: 30px;
       text-shadow: -1px 1px 0 #000,
            1px 1px 0 #000,
           1px -1px 0 #000,
@@ -230,10 +226,10 @@ margin-right: 0;
 
 
   #services {
-    border: 20px solid #334147;
+    border: 10px solid #334147;
     background: #bbc085;
-    padding: 15px;
     max-width: 500px;
+    padding: 10px;
   }
 
   #about ul, #about li {
@@ -243,32 +239,15 @@ margin-right: 0;
 
 
  @media all and (min-width: 1000px) {
-  #about {
-         background-color: #FE938C;
-          margin: 0 auto;
-          flex-direction: row;
-          justify-content: flex-start;
-         }
 
   #about h2 {
-      display: flex;
-      justify-content: flex-start;
-      font-family: 'Bowlby One SC', cursive;
-      color: #EAD2AC;
       margin: 10px;
       font-size: 60px;
-      text-align: right;
-      text-shadow: -1px 1px 0 #000,
-           1px 1px 0 #000,
-          1px -1px 0 #000,
-         -1px -1px 0 #000;
-
+      text-align: left;
   }
 
   #about p, #about ul, #about li {
       font-size: 30px;
-      font-family: 'Share', cursive;
-      color: #334147;
       line-height: 50px;
       margin-bottom: 50px;
       text-align: left;
@@ -280,8 +259,6 @@ margin-right: 0;
 
   #services {
     border: 20px solid #334147;
-    background: #bbc085;
-    padding: 0px;
     margin-left: 100px;
     margin-right: 10px;
 
@@ -300,8 +277,6 @@ margin-right: 0;
       background-color: #334147;
       margin: 0 auto;
       padding: 15px;
-      display: flex;
-      justify-content: center;
       }
 
 
@@ -309,24 +284,21 @@ margin-right: 0;
     font-family: 'Bowlby One SC', cursive;
     color: #EAD2AC;
     font-size: 30px;
-    text-align: left;
+    text-align: center;
     margin: 0px;
     padding-top: 35px;
     text-shadow: -1px 1px 0 #000,
          1px 1px 0 #000,
         1px -1px 0 #000,
        -1px -1px 0 #000;
-      display: flex;
       }
 
 #stay-tuned {
-    display: flex;
-    justify-content: flex-start;
     font-family: 'Share', cursive;
     padding: 0px;
     margin-top: 0px;
     margin-bottom: 35px;
-    text-align: left;
+    text-align: center;
     font-size: 15px;
     color: #EAD2AC;
 }
@@ -357,10 +329,6 @@ margin-right: 0;
 
  @media all and (min-width: 1000px) {
 
-   #projects {
-     padding: 15px;
-   }
-
 
 #projects h2 {
     font-size: 60px;
@@ -370,8 +338,6 @@ margin-right: 0;
       }
 
 #stay-tuned {
-    display: flex;
-    justify-content: flex-start;
     padding-left: 15px;
     margin-top: 0px;
     margin-bottom: 35px;
@@ -398,9 +364,6 @@ margin-right: 0;
         margin: 0 auto;
         padding: 15px;
         padding-bottom: 75px;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
       }
 
 
@@ -410,8 +373,6 @@ margin-right: 0;
 
 
 #contact h2 {
-    display: flex;
-    justify-content: center;
    font-family: 'Bowlby One SC', cursive;
    text-align: center;
    font-size: 50px;
@@ -431,8 +392,6 @@ fieldset{
 }
 
 legend {
-  display: flex;
-  justify-content: flex-start;
   background-color: #FE938C;
   color: #334147;
   border: 2px solid #334147;
@@ -470,7 +429,9 @@ form button {
 }
 
 #email {
+  text-decoration: none;
    color: #334147;
+   font-size: inherit;
 }
 
 
@@ -486,12 +447,7 @@ form button {
    list-style: none;
 }
 
-#contact ul li {
-  display: inline-flex;
-}
-
 #contact ul img {
-    display: inline-flex;
    padding-right: 15px;
    padding-bottom: 10px;
    width: 50%
@@ -499,53 +455,24 @@ form button {
 
  @media all and (min-width: 1000px) {
 
-  #contact {
-          display: flex;
-          flex-direction: row;
-        }
 
   #cowboys {
-    display: flex;
-    justify-content: flex-end;
     margin-top: 30px;
   }
 
 
   #contact h2 {
-    display: flex;
-    justify-content: flex-start;
-     font-family: 'Bowlby One SC', cursive;
      font-size: 80px;
-     color: #FE938C;
-     text-shadow: -1px 1px 0 #000,
-          1px 1px 0 #000,
-         1px -1px 0 #000,
-        -1px -1px 0 #000;
   }
 
   fieldset{
-    margin: 160px 0 75px 0;
+    margin: 170px 0 75px 0;
   }
-
-#email  {
-     text-decoration: none;
-     color: #334147;
-     font-size: inherit;
-  }
-
-  #email:link    { color: #334147;  }
-  #email:visited { color: #06D6A0;   }
-  #email:hover   { color: #EF476F; }
-  #email:active  { color: #FFD166;  }
-
-
 
   #contact ul img {
     padding-right: 10px;
      padding-bottom: 0px;
      width: 30%
   }
-
-
 
 }
