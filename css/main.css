@@ -43,12 +43,13 @@ img {
   background-size: cover;
   background-position: center;
   padding: 10px;
+  min-height: 400px;
 }
 
 header h1 {
     font-family: 'Bowlby One SC', cursive;
     color: #bbc085;
-    font-size: 50px;
+    font-size: 60px;
     line-height: 45px;
     text-align: center;
     text-shadow: -1px 1px 0 #000,
@@ -109,9 +110,6 @@ margin-right: 0;
 
    header {
     height: 765px;
-    background-image: url('../img/blob.jpg');
-    background-size: cover;
-    background-position: center;
   }
 
   header h1 {
@@ -141,8 +139,8 @@ margin-right: 0;
 #intro {
       background: #EAD2AC;
       margin: 0 auto;
+      padding: 10px;
       display: flex;
-      padding: 15px;
       flex-direction: column;
       align-items: center;
       text-align: center;
@@ -160,9 +158,10 @@ margin-right: 0;
 }
 
 #intro p {
-  font-size: 25px;
+  font-size: 27px;
   background: #EAD2AC;
   font-family: 'Share', cursive;
+  max-width: 600px; 
 }
 
 #intro img {
@@ -178,7 +177,7 @@ margin-right: 0;
     }
 
     #intro h2 {
-       margin-top: 100px;
+       margin-top: 30px;
        font-size: 80px;
     }
 
@@ -213,7 +212,7 @@ margin-right: 0;
       font-family: 'Bowlby One SC', cursive;
       color: #EAD2AC;
       margin: 10px;
-      font-size: 30px;
+      font-size: 50px;
       text-shadow: -1px 1px 0 #000,
            1px 1px 0 #000,
           1px -1px 0 #000,
@@ -221,11 +220,12 @@ margin-right: 0;
   }
 
   #about p, #about ul, #about li {
-      font-size: 18px;
+      font-size: 20px;
       font-family: 'Share', cursive;
       color: #334147;
       line-height: 40px;
       margin-bottom: 50px;
+      max-width: 600px; 
   }
 
 
@@ -237,7 +237,8 @@ margin-right: 0;
   }
 
   #about ul, #about li {
-    font-size: 25px;
+    font-size: 30px;
+    text-align: left;
   }
 
 
