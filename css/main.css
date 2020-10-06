@@ -50,7 +50,7 @@ header h1 {
     font-family: 'Bowlby One SC', cursive;
     color: #bbc085;
     font-size: 60px;
-    line-height: 45px;
+    line-height: 50px;
     text-align: center;
     text-shadow: -1px 1px 0 #000,
          1px 1px 0 #000,
@@ -232,7 +232,7 @@ margin-right: 0;
   #services {
     border: 20px solid #334147;
     background: #bbc085;
-    padding: 40px;
+    padding: 15px;
     max-width: 500px;
   }
 
