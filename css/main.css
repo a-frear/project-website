@@ -345,7 +345,7 @@ header nav ul li:last-child a {
 }
 
 .portfolio-img  {
-  width: 75%;
+  max-width: 75%;
 }
 
 #projects h3, #projects h4, #projects p {
@@ -360,6 +360,7 @@ header nav ul li:last-child a {
   font-size: 19px;
   line-height: 30px;
   margin-left: -25px;
+  margin-right: 20px;
   max-width: 600px;
 }
 }
