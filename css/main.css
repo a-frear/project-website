@@ -328,11 +328,9 @@ header nav ul li:last-child a {
   text-align: right;
 }
 
-.repo-link {
-  color: #bbc085;
-}
-
+.repo-link:link    { color: #bbc085;  }
 .repo-link:visited { color: #FFD166;  }
+.repo-link:hover   { color: #FE938C; }
 
 @media all and (min-width: 1000px) {
 
