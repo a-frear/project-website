@@ -57,7 +57,7 @@ header h1 {
         1px -1px 0 #000,
        -1px -1px 0 #000;
     margin: 0px;
-    margin-bottom: -40px;
+    margin-bottom: -50px;
     padding-top: 20px;
 }
 
@@ -113,9 +113,9 @@ header nav ul li:last-child a {
   }
 
   header h1 {
-    font-size: 75px;
+    font-size: 80px;
     margin-bottom: -70px;
-    line-height: 65px;
+    line-height: 85px;
   }
 
   header h2 {
@@ -139,7 +139,7 @@ header nav ul li:last-child a {
   
   header a:hover {
     font-size: 40px;
-    color: #bbc085; 
+    color: #FF1053; 
   }
 }
 
@@ -203,16 +203,17 @@ header nav ul li:last-child a {
   #intro h2 {
     margin-top: 30px;
     font-size: 85px;
-    margin: 0px 0px -20px 0;
+    margin: 0px 0px -40px 0px;
   }
 
   #intro p {
-    font-size: 35px;
+    font-size: 38px;
     font-family: 'Share', cursive;
     text-align: left;
     padding: 25px 100px;
     color: #334147;
     line-height: 50px;
+    text-align: center;
   }
 
   #intro img {
@@ -237,29 +238,27 @@ header nav ul li:last-child a {
   justify-content: center;
 }
 
-
-
   /***** ABOUT *****/
 #about {
-        background-color: #FE938C;
+        background:#FE938C;
         margin: 0 auto;
         align-items: center;
         text-align: center;
         padding: 15px;
 }
 
-#about h2 {
+#about-h2 {
     font-family: 'Bowlby One SC', cursive;
     color: #EAD2AC;
     margin: 10px;
-    font-size: 30px;
+    font-size: 40px;
     text-shadow: -1px 1px 0 #000,
           1px 1px 0 #000,
         1px -1px 0 #000,
         -1px -1px 0 #000;
 }
 
-#about p, #about ul, #about li {
+#about p {
     font-size: 20px;
     font-family: 'Share', cursive;
     color: #334147;
@@ -268,48 +267,83 @@ header nav ul li:last-child a {
     max-width: 600px; 
 }
 
-
-#services {
-  border: 10px solid #334147;
-  background: #bbc085;
-  max-width: 500px;
-  padding: 10px;
+#service-h2 {
+  font-family: 'Bowlby One SC', cursive;
+  font-size: 40px;
+  text-shadow: -1px 1px 0 #000,
+    1px 1px 0 #000,
+    1px -1px 0 #000,
+    -1px -1px 0 #000;
+  letter-spacing: 1px;
+  color: #EAD2AC;
+  text-align: center;
+  margin-top: -30px;
+  margin-bottom: -20px;
 }
+
 
 #about ul, #about li {
   font-size: 30px;
-  text-align: left;
+  font-weight: lighter;
+  list-style: none;
+  text-align: center;
+  padding-left: 0px;
+  color: #334147;
 }
 
+#about li {
+  padding-top: 0px;
+  padding-bottom: 0px;
+  font-family: 'Share', cursive;
+
+}
 
 @media all and (min-width: 1000px) {
 
-  #about h2 {
-      margin: 10px;
-      font-size: 60px;
-      text-align: left;
+  #about {
+    background: linear-gradient(to right,  #FE938C 0%,#FE938C 50%,#bbc085 50%,#bbc085 100%);
   }
 
-  #about p, #about ul, #about li {
-      font-size: 30px;
-      line-height: 50px;
-      margin-bottom: 50px;
+  #about-h2 {
+      font-size: 70px;
       text-align: left;
+      margin-right: 75px;
+      letter-spacing: 3px;
   }
 
   #about p {
-    margin-right: 30px;
+    font-size: 28px;
+    line-height: 50px;
+    text-align: left;
+    max-width: 800px;
+
   }
 
   #services {
-  border: 10px solid #334147;
   margin-left: 100px;
   margin-right: 10px;
+  }
+
+  #service-h2 {
+    font-size: 70px;
+    letter-spacing: 2px;
+    line-height: 60px;
+    color: #FE938C;
+    margin-top: 2px;
+    margin-bottom: 30px;
 
   }
 
   #about ul, #about li {
     font-size: 40px;
+    font-weight: lighter;
+    list-style: none;
+    text-align: center;
+  }
+
+  #about li {
+    padding-top: 0px;
+    padding-bottom: 0px;
   }
 
   .button-vid, .button-vid-2 {
@@ -335,8 +369,8 @@ header nav ul li:last-child a {
         1px -1px 0 #000,
         -1px -1px 0 #000;
   }
-}
 
+}
 
 
 /***** WORK *****/
@@ -425,7 +459,7 @@ header nav ul li:last-child a {
 
 
 #projects h2 {
-  font-size: 60px;
+  font-size: 70px;
   text-align: left;
   margin: 0px;
   padding: 15px;
