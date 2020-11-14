@@ -5,7 +5,8 @@ html {
 body {
   margin: 0;
 }
- /* --- Groups & Items --- */
+
+/* --- Groups & Items --- */
 
 .group {
   display: flex;
@@ -14,199 +15,181 @@ body {
 }
 
 @media all and (min-width: 1000px) {
-
-.group {
-  display: flex;
-  flex-direction: row;
-}
-
-.item {
-flex: 1;
-margin: 10px;
-}
-
-img {
-  width: 100%
-}
-
-.icon {
-  width: 50px;
-}
-
-
+  .group {
+      display: flex;
+      flex-direction: row;
+ }
+  .item {
+      flex: 1;
+      margin: 10px;
+ }
+  img {
+      width: 100% 
+ }
+  .icon {
+      width: 50px;
+ }
 }
 
 /***** HEADER *****/
 
 header {
-background-image: url('../img/blob.jpg');
-background-size: cover;
-background-position: center;
-padding: 10px;
-min-height: 400px;
+  background-image: url('../img/blob.jpg');
+  background-size: cover;
+  background-position: center;
+  padding: 10px;
+  min-height: 400px;
 }
 
 header h1 {
-    font-family: 'Bowlby One SC', cursive;
-    color: #bbc085;
-    font-size: 60px;
-    line-height: 50px;
-    text-align: center;
-    text-shadow: -1px 1px 0 #000,
-         1px 1px 0 #000,
-        1px -1px 0 #000,
-       -1px -1px 0 #000;
-    margin: 0px;
-    margin-bottom: -50px;
-    padding-top: 20px;
+  font-family: 'Bowlby One SC', cursive;
+  color: #bbc085;
+  font-size: 60px;
+  line-height: 50px;
+  text-align: center;
+  text-shadow: -1px 1px 0 #000, 1px 1px 0 #000, 1px -1px 0 #000, -1px -1px 0 #000;
+  margin: 0px;
+  margin-bottom: -50px;
+  padding-top: 20px;
 }
 
 header h2 {
-    font-family: 'Bowlby One SC', cursive;
-    color: #EAD2AC;
-    font-size: 30px;
-    line-height: 25px;
-    text-shadow: -1px 1px 0 #000,
-         1px 1px 0 #000,
-        1px -1px 0 #000,
-       -1px -1px 0 #000;
-    padding-top: 30px;
-    text-align: center
-
+  font-family: 'Bowlby One SC', cursive;
+  color: #EAD2AC;
+  font-size: 30px;
+  line-height: 25px;
+  text-shadow: -1px 1px 0 #000, 1px 1px 0 #000, 1px -1px 0 #000, -1px -1px 0 #000;
+  padding-top: 30px;
+  text-align: center 
 }
 
 header nav {
-    display: flex;
-    justify-content: center
+  display: flex;
+  justify-content: center 
 }
 
 header nav ul {
-    display: flex;
-    justify-content: center;
-    list-style: none;
-    padding-left: 0px;
-    text-shadow: -1px 1px 0 #000,
-          1px 1px 0 #000,
-         1px -1px 0 #000,
-        -1px -1px 0 #000;
-
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  padding-left: 0px;
+  text-shadow: -1px 1px 0 #000, 1px 1px 0 #000, 1px -1px 0 #000, -1px -1px 0 #000;
 }
+
 header nav ul li a {
-    display: flex;
-    justify-content: center;
-    font-family: 'Bowlby One SC', cursive;
-    text-decoration: none;
-    list-style: none;
-    font-size: 15px;
-    color: #FE938C;
-    margin: 0 5px 0 0
+  display: flex;
+  justify-content: center;
+  font-family: 'Bowlby One SC', cursive;
+  text-decoration: none;
+  list-style: none;
+  font-size: 15px;
+  color: #FE938C;
+  margin: 0 5px 0 0 
 }
 
 header nav ul li:last-child a {
   margin-right: 0;
 }
 
-@media all and (min-width: 575px) {
-  header h1 {
-    font-size: 80px;
-    line-height: 75px;
-  }
-
-  header h2 {
-    font-size: 50px;
-    line-height: 45px;
-  }
-
-  header nav ul li a {
-    font-size: 30px;
-}
-li {
-  padding: 10px;
-}
-}
-
 @media all and (min-width: 325px) {
   header h1 {
-    font-size: 70px;
-    line-height: 65px;
-  }
+      font-size: 70px;
+      line-height: 65px;
+ }
 
   header h2 {
-    font-size: 40px;
-    line-height: 35px;
-  }
+      font-size: 40px;
+      line-height: 35px;
+ }
 
   header nav ul li a {
-    font-size: 20px;
-}
-li {
-  padding: 5px;
-}
+      font-size: 20px;
+ }
+
+  li {
+      padding: 5px;
+ }
 }
 
- @media all and (min-width: 1000px) {
+@media all and (min-width: 575px) {
+  header h1 {
+      font-size: 80px;
+      line-height: 75px;
+ }
 
+  header h2 {
+      font-size: 50px;
+      line-height: 45px;
+ }
+
+  header nav ul li a {
+      font-size: 30px;
+ }
+
+  li {
+      padding: 10px;
+ }
+
+}
+
+@media all and (min-width: 1000px) {
   header {
-    height: 765px;
-  }
+      height: 765px;
+ }
 
   header h1 {
-    font-size: 80px;
-    margin-bottom: -70px;
-    line-height: 85px;
-  }
+      font-size: 80px;
+      margin-bottom: -70px;
+      line-height: 85px;
+ }
 
   header h2 {
-    font-size: 50px;
-    line-height: 45px;
-  }
+      font-size: 50px;
+      line-height: 45px;
+ }
 
   header nav {
-    margin-top: 14px;
-  }
+      margin-top: 14px;
+ }
 
   header nav ul li a {
-    font-size: 35px;
-    margin: 0 15px 0 0;
-  }
+      font-size: 35px;
+      margin: 0 15px 0 0;
+ }
 
   header a {
-    -webkit-transition: color 0.5s, font-size 0.5s;
-    transition: color 0.5s, font-size 0.5s;
-  }
-  
+      -webkit-transition: color 0.5s, font-size 0.5s;
+      transition: color 0.5s, font-size 0.5s;
+ }
+
   header a:hover {
-    font-size: 40px;
-    color: #FF1053; 
-  }
+      font-size: 40px;
+      color: #FF1053;
+ }
 }
 
-
 /***** intro *****/
+
 #intro {
   background: #EAD2AC;
   margin: 0 auto;
   padding: 10px;
   align-items: center;
   text-align: center;
-
 }
 
 #intro h2 {
-   font-family: 'Bowlby One SC', cursive;
-   color: #FE938C;
-   font-size: 50px;
-   text-shadow: -1px 1px 0 #000,
-      1px 1px 0 #000,
-      1px -1px 0 #000,
-      -1px -1px 0 #000;
+  font-family: 'Bowlby One SC', cursive;
+  color: #FE938C;
+  font-size: 50px;
+  text-shadow: -1px 1px 0 #000, 1px 1px 0 #000, 1px -1px 0 #000, -1px -1px 0 #000;
   margin: 0px 0px -10px 0;
 }
 
 #intro p {
   font-size: 25px;
   font-family: 'Share', cursive;
-  max-width: 600px; 
+  max-width: 600px;
   color: #334147;
 }
 
@@ -232,53 +215,55 @@ li {
   display: block;
 }
 
+iframe {
+  border: none;
+}
 
 @media all and (min-width: 400px) {
   #intro h2 {
-    font-size: 70px;
-  }
+      font-size: 70px;
+ }
 
   #intro p {
-    font-size: 38px;
-  }
+      font-size: 38px;
+ }
 
   #intro img {
-    width: 90%;
-  }
+      width: 90%;
+ }
 }
-
 
 @media all and (min-width: 1000px) {
   #intro {
-    flex-direction: row-reverse;
-  }
+      flex-direction: row-reverse;
+ }
 
   #intro h2 {
-    margin-top: 30px;
-    font-size: 85px;
-    margin: 0px 0px -40px 0px;
-  }
+      margin-top: 30px;
+      font-size: 85px;
+      margin: 0px 0px -40px 0px;
+ }
 
   #intro p {
-    font-size: 38px;
-    font-family: 'Share', cursive;
-    text-align: left;
-    padding: 25px 100px;
-    line-height: 50px;
-    text-align: center;
-  }
+      font-size: 38px;
+      font-family: 'Share', cursive;
+      text-align: left;
+      padding: 25px 100px;
+      line-height: 50px;
+      text-align: center;
+ }
 
   #intro img {
-    border: 10px solid #bbc085;
-    margin: 45px;
-    width: 100%
-  }
-
+      border: 10px solid #bbc085;
+      margin: 45px;
+      width: 100% 
+ }
 }
 
 .mfp-hide {
   display: none!important;
 }
+
 .button-vid, .button-vid-2 {
   color: inherit;
   display: inline-block;
@@ -290,42 +275,36 @@ li {
   justify-content: center;
 }
 
-  /***** ABOUT *****/
+/***** ABOUT *****/
 #about {
-        background:#FE938C;
-        margin: 0 auto;
-        align-items: center;
-        text-align: center;
-        padding: 15px;
+  background:#FE938C;
+  margin: 0 auto;
+  align-items: center;
+  text-align: center;
+  padding: 15px;
 }
 
 #about-h2 {
-    font-family: 'Bowlby One SC', cursive;
-    color: #EAD2AC;
-    margin: 10px;
-    font-size: 40px;
-    text-shadow: -1px 1px 0 #000,
-          1px 1px 0 #000,
-        1px -1px 0 #000,
-        -1px -1px 0 #000;
+  font-family: 'Bowlby One SC', cursive;
+  color: #EAD2AC;
+  margin: 10px;
+  font-size: 40px;
+  text-shadow: -1px 1px 0 #000, 1px 1px 0 #000, 1px -1px 0 #000, -1px -1px 0 #000;
 }
 
 #about p {
-    font-size: 24px;
-    font-family: 'Share', cursive;
-    color: #334147;
-    line-height: 28px;
-    margin-bottom: 50px;
-    max-width: 600px; 
+  font-size: 24px;
+  font-family: 'Share', cursive;
+  color: #334147;
+  line-height: 28px;
+  margin-bottom: 50px;
+  max-width: 600px;
 }
 
 #service-h2 {
   font-family: 'Bowlby One SC', cursive;
   font-size: 35px;
-  text-shadow: -1px 1px 0 #000,
-    1px 1px 0 #000,
-    1px -1px 0 #000,
-    -1px -1px 0 #000;
+  text-shadow: -1px 1px 0 #000, 1px 1px 0 #000, 1px -1px 0 #000, -1px -1px 0 #000;
   letter-spacing: 1px;
   color: #EAD2AC;
   text-align: center;
@@ -333,7 +312,6 @@ li {
   margin-bottom: -20px;
   line-height: 40px;
 }
-
 
 #about ul, #about li {
   font-size: 30px;
@@ -348,94 +326,83 @@ li {
   padding-top: 0px;
   padding-bottom: 0px;
   font-family: 'Share', cursive;
-
 }
 
 @media all and (min-width: 400px) {
   #about-h2 {
-    font-size: 70px;
-  }
+      font-size: 70px;
+ }
 
   #service-h2 {
-    font-size: 70px;
-    line-height: 60px;
-    letter-spacing: 2px;
-  }
+      font-size: 70px;
+      line-height: 60px;
+      letter-spacing: 2px;
+ }
 }
 
 @media all and (min-width: 1000px) {
 
   #about {
-    background: linear-gradient(to right,  #FE938C 0%,#FE938C 50%,#bbc085 50%,#bbc085 100%);
-  }
+      background: linear-gradient(to right, #FE938C 0%,#FE938C 50%,#bbc085 50%,#bbc085 100%);
+ }
 
   #about-h2 {
       font-size: 70px;
       text-align: left;
       margin-right: 75px;
       letter-spacing: 3px;
-  }
+ }
 
   #about p {
-    font-size: 28px;
-    line-height: 50px;
-    text-align: left;
-    max-width: 800px;
-
-  }
+      font-size: 28px;
+      line-height: 50px;
+      text-align: left;
+      max-width: 800px;
+ }
 
   #services {
-  margin-left: 100px;
-  margin-right: 10px;
-  }
+      margin-left: 100px;
+      margin-right: 10px;
+ }
 
   #service-h2 {
-    font-size: 70px;
-    letter-spacing: 2px;
-    line-height: 70px;
-    color: #FE938C;
-    margin-bottom: 30px;
-
-  }
+      font-size: 70px;
+      letter-spacing: 2px;
+      line-height: 70px;
+      color: #FE938C;
+      margin-bottom: 30px;
+ }
 
   #about ul, #about li {
-    font-size: 40px;
-    font-weight: lighter;
-    list-style: none;
-    text-align: center;
-  }
+      font-size: 40px;
+      font-weight: lighter;
+      list-style: none;
+      text-align: center;
+ }
 
   #about li {
-    padding-top: 0px;
-    padding-bottom: 0px;
-  }
+      padding-top: 0px;
+      padding-bottom: 0px;
+ }
 
   .button-vid, .button-vid-2 {
-    transition: all 0.15s ease-in-out;
-  }
-  
+      transition: all 0.15s ease-in-out;
+ }
+
   .button-vid:hover {
-    color: #bbc085; 
-    font-family: 'Bowlby One SC', cursive;
-    font-size: 40px;
-    text-shadow: -1px 1px 0 #000,
-        1px 1px 0 #000,
-        1px -1px 0 #000,
-        -1px -1px 0 #000;
-  }
-  
+      color: #bbc085;
+      font-family: 'Bowlby One SC', cursive;
+      font-size: 40px;
+      text-shadow: -1px 1px 0 #000, 1px 1px 0 #000, 1px -1px 0 #000, -1px -1px 0 #000;
+ }
+
   .button-vid-2:hover {
-    color: #bbc085; 
-    font-family: 'Bowlby One SC', cursive;
-    font-size: 40px;
-    text-shadow: -1px 1px 0 #000,
-        1px 1px 0 #000,
-        1px -1px 0 #000,
-        -1px -1px 0 #000;
-  }
-
+      color: #bbc085;
+      font-family: 'Bowlby One SC', cursive;
+      font-size: 40px;
+      text-shadow: -1px 1px 0 #000, 1px 1px 0 #000, 1px -1px 0 #000, -1px -1px 0 #000;
+ }
 }
-
 
 /***** WORK *****/
 
@@ -445,17 +412,13 @@ li {
   padding: 15px;
 }
 
-
 #projects h2 {
   font-family: 'Bowlby One SC', cursive;
   color: #EAD2AC;
   font-size: 40px;
   text-align: center;
   margin: 0px;
-  text-shadow: -1px 1px 0 #000,
-    1px 1px 0 #000,
-    1px -1px 0 #000,
-    -1px -1px 0 #000;
+  text-shadow: -1px 1px 0 #000, 1px 1px 0 #000, 1px -1px 0 #000, -1px -1px 0 #000;
 }
 
 #projects h3, h4 {
@@ -497,7 +460,7 @@ li {
   display: block;
 }
 
-.portfolio-img  {
+.portfolio-img {
   width: 100%;
   text-align: center;
   margin: 15px 0px;
@@ -508,51 +471,56 @@ li {
   text-align: right;
 }
 
-.repo:link    { color: #bbc085;  }
-.repo:visited { color: #FFD166;  }
-.repo:hover   { color: #FE938C; }
+.repo:link {
+  color: #bbc085;
+}
+
+.repo:visited {
+  color: #FFD166;
+}
+
+.repo:hover {
+  color: #FE938C;
+}
 
 @media all and (min-width: 400px) {
   #projects h2 {
-    font-size: 70px;
-  }
+      font-size: 70px;
+ }
 }
 
 @media all and (min-width: 1000px) {
+  #projects {
+      display: flex;
+      flex-direction: row;
+ }
 
-#projects {
-  display: flex;
-  flex-direction: row;
+  #projects h2 {
+      font-size: 70px;
+      text-align: left;
+      margin: 0px;
+      padding: 15px;
+ }
 
-}
+  .portfolio-img {
+      max-width: 75%;
+ }
 
+  #projects h3, #projects h4, #projects p {
+      text-align: left;
+ }
 
-#projects h2 {
-  font-size: 70px;
-  text-align: left;
-  margin: 0px;
-  padding: 15px;
-}
+  #projects h3 {
+      font-size: 24px;
+ }
 
-.portfolio-img  {
-  max-width: 75%;
-}
-
-#projects h3, #projects h4, #projects p {
-  text-align: left;
-}
-
-#projects h3 {
-  font-size: 24px;
-}
-
-#projects p {
-  font-size: 19px;
-  line-height: 30px;
-  margin-left: -25px;
-  margin-right: 20px;
-  max-width: 600px;
-}
+  #projects p {
+      font-size: 19px;
+      line-height: 30px;
+      margin-left: -25px;
+      margin-right: 20px;
+      max-width: 600px;
+ }
 }
 
 /***** contact *****/
@@ -566,11 +534,9 @@ li {
   text-align: center;
 }
 
-
-#cowboys  {
+#cowboys {
   width: 70%;
 }
-
 
 #contact h2 {
   font-family: 'Bowlby One SC', cursive;
@@ -579,10 +545,7 @@ li {
   margin-top: -10px;
   margin-bottom: 10px;
   color: #FE938C;
-  text-shadow: -1px 1px 0 #000,
-      1px 1px 0 #000,
-      1px -1px 0 #000,
-    -1px -1px 0 #000;
+  text-shadow: -1px 1px 0 #000, 1px 1px 0 #000, 1px -1px 0 #000, -1px -1px 0 #000;
 }
 
 fieldset{
@@ -626,7 +589,7 @@ form button {
   background: #FE938C;
   color: #334147;
   margin: 10px 8px 10px 0;
-  width: 100%
+  width: 100% 
 }
 
 #email {
@@ -635,13 +598,21 @@ form button {
   font-size: inherit;
 }
 
+#email:link {
+  color: #334147;
+}
 
-#email:link    { color: #334147;  }
-#email:visited { color: #06D6A0;   }
-#email:hover   { color: #EF476F; }
-#email:active  { color: #FFD166;  }
+#email:visited {
+  color: #06D6A0;
+}
 
+#email:hover {
+  color: #EF476F;
+}
 
+#email:active {
+  color: #FFD166;
+}
 
 #contact ul {
   display: inline-flex;
@@ -649,46 +620,39 @@ form button {
   text-align: left;
 }
 
-.icon  {
+.icon {
   padding-right: 15px;
   padding-bottom: 10px;
-
 }
 
 @media all and (min-width: 400px) {
   #contact h2 {
-    font-size: 70px;
-  }
-
+      font-size: 70px;
+ }
 }
 
- @media all and (min-width: 1000px) {
+@media all and (min-width: 1000px) {
+  #cowboys {
+      margin-top: 30px;
+      width: 100%;
+ }
 
+  #contact h2 {
+      font-size: 70px;
+      text-align: left;
+ }
 
-#cowboys {
-  margin-top: 30px;
-  width: 100%;
-}
+  fieldset{
+      margin: 170px 0 15px 0;
+ }
 
+  #contact ul {
+      padding-right: 10px;
+      padding-bottom: 0px;
+      text-align: right;
+ }
 
-#contact h2 {
-    font-size: 70px;
-    text-align: left;
-}
-
-fieldset{
-  margin: 170px 0 15px 0;
-}
-
-#contact ul {
-  padding-right: 10px;
-  padding-bottom: 0px;
-  text-align: right;
-}
-
-.icon {
-  text-align: right;
-}
-
-
+  .icon {
+      text-align: right;
+ }
 }
