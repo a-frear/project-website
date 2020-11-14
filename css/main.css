@@ -382,6 +382,22 @@ header nav ul li:last-child a {
   text-align: justify;
 }
 
+.imageBox2 {
+  position: relative;
+  float: left;
+}
+
+.imageBox2 .hoverImg2 {
+  position: absolute;
+  left: 0;
+  top: 0;
+  display: none;
+}
+
+.imageBox2:hover .hoverImg2 {
+  display: block;
+}
+
 .portfolio-img  {
   width: 100%;
   text-align: center;
