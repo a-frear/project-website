@@ -178,6 +178,22 @@ header nav ul li:last-child a {
   max-width: 400px;
 }
 
+.imageBox {
+  position: relative;
+  float: left;
+}
+
+.imageBox .hoverImg {
+  position: absolute;
+  left: 0;
+  top: 0;
+  display: none;
+}
+
+.imageBox:hover .hoverImg {
+  display: block;
+}
+
 
 @media all and (min-width: 1000px) {
   #intro {
@@ -204,21 +220,7 @@ header nav ul li:last-child a {
     margin: 45px;
     width: 100%
   }
-  .imageBox {
-    position: relative;
-    float: left;
-  }
 
-  .imageBox .hoverImg {
-    position: absolute;
-    left: 0;
-    top: 0;
-    display: none;
-  }
-  
-  .imageBox:hover .hoverImg {
-    display: block;
-  }
 }
 
 .mfp-hide {
