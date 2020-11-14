@@ -232,7 +232,7 @@ header nav ul li:last-child a {
   text-decoration: none;
 }
 
-#videoStory, #videoStory2 {
+#videoStory, #videoStory2, #phillyTweet {
   display: flex;
   justify-content: center;
 }
