@@ -319,7 +319,7 @@ header nav ul li:last-child a {
   .button-vid:hover {
     color: #bbc085; 
     font-family: 'Bowlby One SC', cursive;
-    font-size: 60px;
+    font-size: 40px;
     text-shadow: -1px 1px 0 #000,
         1px 1px 0 #000,
         1px -1px 0 #000,
@@ -329,7 +329,7 @@ header nav ul li:last-child a {
   .button-vid-2:hover {
     color: #bbc085; 
     font-family: 'Bowlby One SC', cursive;
-    font-size: 60px;
+    font-size: 40px;
     text-shadow: -1px 1px 0 #000,
         1px 1px 0 #000,
         1px -1px 0 #000,
