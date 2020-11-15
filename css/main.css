@@ -431,14 +431,14 @@ iframe {
 }
 
 #projects h4 {
-  font-size: 18px;
+  font-size: 20px;
   margin-top: 10px;
 }
 
 #projects p {
   font-family: 'Share', cursive;
   color: #EAD2AC;
-  font-size: 15px;
+  font-size: 20px;
   line-height: 25px;
   padding: 0 25px 25px 25px;
   text-align: justify;
@@ -513,6 +513,7 @@ iframe {
   #projects h3 {
       font-size: 24px;
  }
+
 
   #projects p {
       font-size: 19px;
