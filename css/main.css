@@ -326,6 +326,19 @@ iframe {
   font-family: 'Share', cursive;
 }
 
+#bluecadet {
+  color: #334147;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+#bluecadet:hover {
+      color: #adc8eb;
+      font-family: 'Bowlby One SC', cursive;
+      font-size: 40px;
+      text-shadow: -1px 1px 0 #000, 1px 1px 0 #000, 1px -1px 0 #000, -1px -1px 0 #000;
+ }
+
 @media all and (min-width: 400px) {
   #about-h2 {
       font-size: 70px;
