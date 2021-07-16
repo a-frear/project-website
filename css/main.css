@@ -328,16 +328,13 @@ iframe {
 
 #bluecadet {
   color: #334147;
-  text-decoration: none;
   font-weight: 600;
 }
 
-#bluecadet:hover {
-      color: #adc8eb;
-      font-family: 'Bowlby One SC', cursive;
-      font-size: 40px;
-      text-shadow: -1px 1px 0 #000, 1px 1px 0 #000, 1px -1px 0 #000, -1px -1px 0 #000;
- }
+/* #bluecadet:hover {
+  border-bottom: 2px solid #1638e2;
+} */
+
 
 @media all and (min-width: 400px) {
   #about-h2 {
@@ -410,7 +407,7 @@ iframe {
   .button-vid-2:hover {
       color: #bbc085;
       font-family: 'Bowlby One SC', cursive;
-      font-size: 40px;
+      font-size: 35px;
       text-shadow: -1px 1px 0 #000, 1px 1px 0 #000, 1px -1px 0 #000, -1px -1px 0 #000;
  }
 }
