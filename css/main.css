@@ -238,6 +238,7 @@ iframe {
   #intro {
     padding-top: 10px;
     flex-direction: row-reverse;
+    min-height: 65vh;
  }
 
   #intro h2 {
