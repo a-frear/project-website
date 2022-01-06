@@ -134,7 +134,7 @@ header nav ul li:last-child a {
 
 @media all and (min-width: 1000px) {
   header {
-      height: 765px;
+      height: 100vh;
  }
 
   header h1 {
