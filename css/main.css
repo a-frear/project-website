@@ -158,13 +158,14 @@ header nav ul li:last-child a {
  }
 
   header a {
-      -webkit-transition: color 0.5s, font-size 0.5s;
-      transition: color 0.5s, font-size 0.5s;
+    -webkit-transition: color 0.5s, font-size 0.5s;
+    transition: color .5s, font-size .5s;
+    transition-timing-function: ease-out;
  }
 
   header a:hover {
-      font-size: 40px;
-      color: #FF1053;
+    font-size: 40px;
+    color: #FF1053;
  }
 }
 
@@ -328,14 +329,14 @@ iframe {
   font-family: 'Share', cursive;
 }
 
-#bluecadet {
+.bluecadet {
   color: #334147;
   font-weight: 600;
 }
 
-/* #bluecadet:hover {
-  border-bottom: 2px solid #1638e2;
-} */
+#bluecadet:hover {
+  color: #5475fa;
+}
 
 
 @media all and (min-width: 400px) {
@@ -397,6 +398,7 @@ iframe {
 
   .button-vid, .button-vid-2 {
       transition: all 0.15s ease-in-out;
+    transition-timing-function: ease-out;
  }
 
   .button-vid:hover {
