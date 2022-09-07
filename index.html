@@ -1,176 +1,482 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <!-- Google Tag Manager -->
+    <script>
+      (function (w, d, s, l, i) {
+        w[l] = w[l] || [];
+        w[l].push({ "gtm.start": new Date().getTime(), event: "gtm.js" });
+        var f = d.getElementsByTagName(s)[0],
+          j = d.createElement(s),
+          dl = l != "dataLayer" ? "&l=" + l : "";
+        j.async = true;
+        j.src = "https://www.googletagmanager.com/gtm.js?id=" + i + dl;
+        f.parentNode.insertBefore(j, f);
+      })(window, document, "script", "dataLayer", "GTM-5PZ28HS");
+    </script>
+    <!-- End Google Tag Manager -->
+    <title>Amy Frear | Portfolio</title>
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/main.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bowlby+One+SC&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Share:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Patrick+Hand+SC&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="img/favicon_io/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="img/favicon_io/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="img/favicon_io/favicon-16x16.png"
+    />
+    <link rel="manifest" href="/site.webmanifest" />
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.0.0/magnific-popup.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+      rel="stylesheet"
+    />
+  </head>
 
-<head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>Amy Frear | Portfolio</title>
-	<link rel="stylesheet" href="css/normalize.css">
-	<link rel="stylesheet" href="css/main.css">
-	<link href="https://fonts.googleapis.com/css2?family=Bowlby+One+SC&display=swap" rel="stylesheet">
-	<link href="https://fonts.googleapis.com/css2?family=Share:wght@400;700&display=swap" rel="stylesheet">
-	<link href="https://fonts.googleapis.com/css2?family=Patrick+Hand+SC&display=swap" rel="stylesheet">
-	<link rel="apple-touch-icon" sizes="180x180" href="img/favicon_io/apple-touch-icon.png">
-	<link rel="icon" type="image/png" sizes="32x32" href="img/favicon_io/favicon-32x32.png">
-	<link rel="icon" type="image/png" sizes="16x16" href="img/favicon_io/favicon-16x16.png">
-	<link rel="manifest" href="/site.webmanifest">
-	<link href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.0.0/magnific-popup.min.css" rel="stylesheet">
-	<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"> </head>
-
-<body>
-	<header class="group">
-		<div class="item">
-			<h1>Amy Frear</h1>
-			<h2>Web Developer</h2> </div>
-		<div class="item">
-			<nav class="main-nav">
-				<ul>
-					<li><a href="#intro">About</a> </li>
-					<li><a href="#projects">Portfolio</a> </li>
-					<li><a href="#contact">Contact</a> </li>
-				</ul>
-			</nav>
-		</div>
-	</header>
-	<main>
-		<section id="intro" class="group">
-			<div class="item">
-				<div class="imageBox">
-					<div class="imageInn"> <img src="img/amy-hs.jpg" width=300 alt="Amy Frear Headshot"> </div>
-					<div class="hoverImg"> <img src="img/gritty.jpg" alt="Profile Image"> </div>
-				</div>
-			</div>
-			<div class="item">
-				<h2>I'm Amy.</h2>
-				<p>I live in <a href="#phillyTweet" class="button-vid more" id="tweetLink">Philly.</a>
-					<br>I love using code to solve problems and to create websites that are accessible and <a href="#videoStory" class="button-vid more" id="videoLink">fun.</a></p>
-				<div id="videoStory" class="mfp-hide">
-					<iframe src="https://player.vimeo.com/video/478538713" width="832" height="468" allow="autoplay; fullscreen" allowfullscreen class="modal-content"></iframe>
-				</div>
-				<div id="phillyTweet" class="mfp-hide">
-					<blockquote class="twitter-tweet">
-						<p lang="en" dir="ltr">The world doesn&#39;t deserve Philadelphia.</p>&mdash; Nikil Saval (@NikilSaval) <a href="https://twitter.com/NikilSaval/status/1324721677415141376?ref_src=twsrc%5Etfw">November 6, 2020</a> </blockquote>
-					<script async src="https://platform.twitter.com/widgets.js"></script>
-				</div>
-			</div>
-		</section>
-		<section id="about" class="group">
-			<div class="item">
-				<h2 id="about-h2">About</h2>
-				<p>My approach to developing is heavily influenced by my background in film and theater. Whether on set or at my computer, collaborating with others to make something exciting and beautiful is a passion of mine. I believe in a balance of being practical and playful. My <a href="#videoStory2" class="button-vid-2 more" id="videoLink2">work</a> is easy to access and fun to explore.</p> 
-				<p>Currently a developer at <a href="https://www.bluecadet.com/" alt="Bluecadet" target="_blank" class="bluecadet">Bluecadet</a>, where I get to work on <a href="https://muttermuseum.org/" alt="Fun project" target="_blank" class="bluecadet">amazing projects</a>.</p>
-			</div>
-			<div class="item" id="services">
-				<h2 id="service-h2">Let's Create.</h2>
-				<ul>
-					<li>React</li>
-					<li>Gatsby</li>
-					<li>Next.js</li>
-					<li>HTML/CSS</li>
-					<li>JavaScript</li>
-					<li>Node</li>
-					<li>Express</li>
-					<li>PostgreSQL</li>
-				</ul>
-				<div id="videoStory2" class="mfp-hide">
-					<iframe src="https://player.vimeo.com/video/487880455" width="640" height="360" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
-				</div>
-			</div>
-		</section>
-		<section id="projects" class="group">
-			<div class="item">
-				<h2>Personal Projects</h2>
-				<div class="group video-group">
-					<div class="item">
-						<a href="https://eyesite.club/" target="_blank" class="port-img-link">
-							<div class="imageBox">
-								<div class="imageInn"> <img src="img/eyesite-example.png" alt="Eye Site Home Page" class="portfolio-img" id="eye-site-home-page" /> </div>
-							</div>
-						</a>
-						<h3 class="port-title"><a href="https://eyesite.club/" class="repo" target="_blank">EYE SITE</a></h3>.
-						<h4 class="port-subtitle">A SITE FOR SORE EYES</h4>
-						<p class="port-summary"><em>"This year my workload has been double. Mouth and nose aren’t allowed to be seen in public anymore. So I’ve been doing double duty in terms of seeing and expressing. People are relying on me for a smile instead of mouth, and I don’t even know if I’m doing a good job. It's been rough.
-							Eye Site is a website I can go to that is just for me."</em> -Anonymous Eye</p>
-						<p class="port-summary">Discover videos about eyes, for eyes. Submit your own eye inspired work. Like and comment to connect with other eye lovers. Built with React, CSS, Node, Express, PostgreSQL. <a href="https://github.com/a-frear/eye-site" class="repo" target="_blank">Client repo</a>, <a href="https://github.com/a-frear/eye-site-api" class="repo" target="_blank">Eye Site API</a> </p>
-					</div>
-					<div class="item">
-						<a href="https://prompt-land.com/" target="_blank" class="port-img-link">
-							<div class="imageBox">
-								<div class="imageInn"> <img src="img/prompt-land.png" alt="Prompt Land Home Page" class="portfolio-img" id="prompt-land-home-page" /> </div>
-							</div>
-						</a>
-						<h3 class="port-title"><a href="https://prompt-land.com/" class="repo" target="_blank">Prompt Land</a></h3>.
-						<h4 class="port-subtitle">Write and Share Artist's Prompts</h4>
-						<p class="port-summary">I was lucky enough to be in a writer's group when I graduated from school, and we began each meeting giving each other prompts for fifteen minutes of freewriting. The prompts were low pressure, low stakes, but it was always amazing to see the material that was generated.</p>
-						<p class="port-summary">Prompt Land was created as a place to write and share artist prompts. Follow other artists for inspiration and discover prompts for many mediums... including screenwriting, painting, video art, comedy... whatever! Built with React, CSS, Node, Express, PostgreSQL. <a href="https://github.com/a-frear/prompt-land" class="repo" target="_blank">Client repo</a>, <a href="https://github.com/a-frear/prompt-land-api" class="repo" target="_blank">Prompt Land API</a> </p>
-					</div>
-				</div>
-				<div class="group video-group">
-					<div class="item">
-						<a href="https://a-frear.github.io/nyt-shakes/" target="_blank" class="port-img-link">
-							<div class="imageBox">
-								<div class="imageInn"> <img src="img/submit-screenshot.png" alt="Shakespeare in the New York Times" class="portfolio-img" id="nyt-shakes-img" /> </div>
-							</div>
-						</a>
-						<h3 class="port-title"><a href="https://a-frear.github.io/nyt-shakes/" target="_blank" class="repo">Shakespeare in the NYT</a></h3>
-						<h4 class="port-subtitle">Read reviews for your favorite Shakespeare plays in the New York Times.</h4>
-						<p class="port-summary">One of the joys of seeing a Shakespeare play is to see unique interpretations of these classic texts through the eyes of new directors, actors, and designers. With this app, users can compare different takes of the Bard through reviews in the New York Times API. Towards the bottom of the page, there are links to different published versions of the plays via Google Books so the user can refresh themselves with Shakespeare's scripts after exploring contemporary productions. Built with HTML, CSS, JavaScript, and JQuery. Click on the image to visit the site, <a href="https://github.com/a-frear/nyt-shakes" class="repo" target="_blank"> here for the Github repo.</a> </p>
-					</div>
-					<div class="item">
-						<a href="https://a-frear.github.io/shakespeare-quiz/" target="_blank" class="port-img-link">
-							<div class="imageBox2">
-								<div class="imageInn2"> <img src="img/shakespeare-quiz.png" alt="Shakespeare Quiz" class="portfolio-img"> </div>
-							</div>
-						</a>
-						<h3 class="port-title"><a href="https://a-frear.github.io/shakespeare-quiz/" target="_blank" class="repo">Such Stuff as Dreams are Made On...</a></h3>
-						<h4 class="port-subtitle">A Shakespeare Quiz</h4>
-						<p class="port-summary">Once you catch up on your Shakespeare, take a stab at this quiz! This quiz app uses JavaScript and JQuery to keep track of your score and crown you with a Shakespearean quote (or insult) depending on your grade. Even if you are unfamiliar with his works, this quiz will provide you with lots of fun facts about Shakespeare's life, his plays, and the actors that have taken on his famous roles (can you tell I'm a theater nerd?). Click on the image to visit the site, <a href="https://github.com/a-frear/shakespeare-quiz" class="repo" target="_blank"> here for the Github repo.</a> </p>
-					</div>
-				</div>
-			</div>
-		</section>
-		<footer id="contact" class="group">
-			<div class="item">
-				<h2>Say Howdy!</h2> <img src="img/cowboys.png" width=550 id="cowboys" alt="Contact Image" /> </div>
-			<div class="item">
-				<form action="https://formspree.io/amy.frear@gmail.com" method="post">
-					<fieldset>
-						<legend>Email:</legend>
-						<div>
-							<label for="name">Name:</label>
-							<input id="name" type="text" name="name">
-							<div>
-								<label for="email-form">Email:</label>
-								<input id="email-form" type="text" name="email"> </div>
-							<div>
-								<label for="message">Message:</label>
-								<textarea id="message" name="message"></textarea>
-							</div>
-						</div>
-					</fieldset>
-					<button type="submit">Submit</button>
-				</form>
-				<div>
-					<h3> Or reach out directly to <a id="email" href="mailto:amy.frear@gmail.com" target="_blank">amy.frear @ gmail.com</a></h3> </div>
-				<div>
-					<ul>
-						<li>
-							<a href="https://www.linkedin.com/in/amy-frear-988a8123" target="_blank"> <img src="img/linkedin-gray.png" width=25 class="icon" alt="Linkedin icon" /> </a>
-						</li>
-						<li>
-							<a href="https://github.com/a-frear" target="_blank"> <img src="img/github-gray.png" width=25 class="icon" alt="Github icon" /> </a>
-						</li>
-						<li>
-							<a href="https://vimeo.com/amyfrear" target="_blank"> <img src="img/vimeo-gray.png" width=25 class="icon" alt="Vimeo icon" /> </a>
-						</li>
-					</ul>
-				</div>
-			</div>
-		</footer>
-	</main>
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.0.0/jquery.magnific-popup.min.js"></script>
-	<script src="index.js"></script>
-</body>
-
+  <body>
+    <!-- Google Tag Manager (noscript) -->
+    <noscript
+      ><iframe
+        src="https://www.googletagmanager.com/ns.html?id=GTM-5PZ28HS"
+        height="0"
+        width="0"
+        style="display: none; visibility: hidden"
+      ></iframe
+    ></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+    <header class="group">
+      <div class="item">
+        <h1>Amy Frear</h1>
+        <h2>Web Developer</h2>
+      </div>
+      <div class="item">
+        <nav class="main-nav">
+          <ul>
+            <li><a href="#intro">About</a></li>
+            <li><a href="#projects">Portfolio</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <main>
+      <section id="intro" class="group">
+        <div class="item">
+          <div class="imageBox">
+            <div class="imageInn">
+              <img src="img/amy-hs.jpg" width="300" alt="Amy Frear Headshot" />
+            </div>
+            <div class="hoverImg">
+              <img src="img/gritty.jpg" alt="Profile Image" />
+            </div>
+          </div>
+        </div>
+        <div class="item">
+          <h2>I'm Amy.</h2>
+          <p>
+            I live in
+            <a href="#phillyTweet" class="button-vid more" id="tweetLink"
+              >Philly.</a
+            >
+            <br />I love using code to solve problems and to create websites
+            that are accessible and
+            <a href="#videoStory" class="button-vid more" id="videoLink"
+              >fun.</a
+            >
+          </p>
+          <div id="videoStory" class="mfp-hide">
+            <iframe
+              src="https://player.vimeo.com/video/478538713"
+              width="832"
+              height="468"
+              allow="autoplay; fullscreen"
+              allowfullscreen
+              class="modal-content"
+            ></iframe>
+          </div>
+          <div id="phillyTweet" class="mfp-hide">
+            <blockquote class="twitter-tweet">
+              <p lang="en" dir="ltr">
+                The world doesn&#39;t deserve Philadelphia.
+              </p>
+              &mdash; Nikil Saval (@NikilSaval)
+              <a
+                href="https://twitter.com/NikilSaval/status/1324721677415141376?ref_src=twsrc%5Etfw"
+                >November 6, 2020</a
+              >
+            </blockquote>
+            <script
+              async
+              src="https://platform.twitter.com/widgets.js"
+            ></script>
+          </div>
+        </div>
+      </section>
+      <section id="about" class="group">
+        <div class="item">
+          <h2 id="about-h2">About</h2>
+          <p>
+            My approach to developing is heavily influenced by my background in
+            film and theater. Whether on set or at my computer, collaborating
+            with others to make something exciting and beautiful is a passion of
+            mine. I believe in a balance of being practical and playful. My
+            <a href="#videoStory2" class="button-vid-2 more" id="videoLink2"
+              >work</a
+            >
+            is easy to access and fun to explore.
+          </p>
+          <p>
+            Currently a developer at
+            <a
+              href="https://www.bluecadet.com/"
+              alt="Bluecadet"
+              target="_blank"
+              class="bluecadet"
+              >Bluecadet</a
+            >, where I get to work on
+            <a
+              href="https://muttermuseum.org/"
+              alt="Fun project"
+              target="_blank"
+              class="bluecadet"
+              >amazing projects</a
+            >.
+          </p>
+        </div>
+        <div class="item" id="services">
+          <h2 id="service-h2">Let's Create.</h2>
+          <ul>
+            <li>React</li>
+            <li>Gatsby</li>
+            <li>Next.js</li>
+            <li>HTML/CSS</li>
+            <li>JavaScript</li>
+            <li>Node</li>
+            <li>Express</li>
+            <li>PostgreSQL</li>
+          </ul>
+          <div id="videoStory2" class="mfp-hide">
+            <iframe
+              src="https://player.vimeo.com/video/487880455"
+              width="640"
+              height="360"
+              frameborder="0"
+              allow="autoplay; fullscreen; picture-in-picture"
+              allowfullscreen
+            ></iframe>
+          </div>
+        </div>
+      </section>
+      <section id="projects" class="group">
+        <div class="item">
+          <h2>Personal Projects</h2>
+          <div class="group video-group">
+            <div class="item">
+              <a
+                href="https://eyesite.club/"
+                target="_blank"
+                class="port-img-link"
+              >
+                <div class="imageBox">
+                  <div class="imageInn">
+                    <img
+                      src="img/eyesite-example.png"
+                      alt="Eye Site Home Page"
+                      class="portfolio-img"
+                      id="eye-site-home-page"
+                    />
+                  </div>
+                </div>
+              </a>
+              <h3 class="port-title">
+                <a href="https://eyesite.club/" class="repo" target="_blank"
+                  >EYE SITE</a
+                >
+              </h3>
+              .
+              <h4 class="port-subtitle">A SITE FOR SORE EYES</h4>
+              <p class="port-summary">
+                <em
+                  >"This year my workload has been double. Mouth and nose aren’t
+                  allowed to be seen in public anymore. So I’ve been doing
+                  double duty in terms of seeing and expressing. People are
+                  relying on me for a smile instead of mouth, and I don’t even
+                  know if I’m doing a good job. It's been rough. Eye Site is a
+                  website I can go to that is just for me."</em
+                >
+                -Anonymous Eye
+              </p>
+              <p class="port-summary">
+                Discover videos about eyes, for eyes. Submit your own eye
+                inspired work. Like and comment to connect with other eye
+                lovers. Built with React, CSS, Node, Express, PostgreSQL.
+                <a
+                  href="https://github.com/a-frear/eye-site"
+                  class="repo"
+                  target="_blank"
+                  >Client repo</a
+                >,
+                <a
+                  href="https://github.com/a-frear/eye-site-api"
+                  class="repo"
+                  target="_blank"
+                  >Eye Site API</a
+                >
+              </p>
+            </div>
+            <div class="item">
+              <a
+                href="https://prompt-land.com/"
+                target="_blank"
+                class="port-img-link"
+              >
+                <div class="imageBox">
+                  <div class="imageInn">
+                    <img
+                      src="img/prompt-land.png"
+                      alt="Prompt Land Home Page"
+                      class="portfolio-img"
+                      id="prompt-land-home-page"
+                    />
+                  </div>
+                </div>
+              </a>
+              <h3 class="port-title">
+                <a href="https://prompt-land.com/" class="repo" target="_blank"
+                  >Prompt Land</a
+                >
+              </h3>
+              .
+              <h4 class="port-subtitle">Write and Share Artist's Prompts</h4>
+              <p class="port-summary">
+                I was lucky enough to be in a writer's group when I graduated
+                from school, and we began each meeting giving each other prompts
+                for fifteen minutes of freewriting. The prompts were low
+                pressure, low stakes, but it was always amazing to see the
+                material that was generated.
+              </p>
+              <p class="port-summary">
+                Prompt Land was created as a place to write and share artist
+                prompts. Follow other artists for inspiration and discover
+                prompts for many mediums... including screenwriting, painting,
+                video art, comedy... whatever! Built with React, CSS, Node,
+                Express, PostgreSQL.
+                <a
+                  href="https://github.com/a-frear/prompt-land"
+                  class="repo"
+                  target="_blank"
+                  >Client repo</a
+                >,
+                <a
+                  href="https://github.com/a-frear/prompt-land-api"
+                  class="repo"
+                  target="_blank"
+                  >Prompt Land API</a
+                >
+              </p>
+            </div>
+          </div>
+          <div class="group video-group">
+            <div class="item">
+              <a
+                href="https://a-frear.github.io/nyt-shakes/"
+                target="_blank"
+                class="port-img-link"
+              >
+                <div class="imageBox">
+                  <div class="imageInn">
+                    <img
+                      src="img/submit-screenshot.png"
+                      alt="Shakespeare in the New York Times"
+                      class="portfolio-img"
+                      id="nyt-shakes-img"
+                    />
+                  </div>
+                </div>
+              </a>
+              <h3 class="port-title">
+                <a
+                  href="https://a-frear.github.io/nyt-shakes/"
+                  target="_blank"
+                  class="repo"
+                  >Shakespeare in the NYT</a
+                >
+              </h3>
+              <h4 class="port-subtitle">
+                Read reviews for your favorite Shakespeare plays in the New York
+                Times.
+              </h4>
+              <p class="port-summary">
+                One of the joys of seeing a Shakespeare play is to see unique
+                interpretations of these classic texts through the eyes of new
+                directors, actors, and designers. With this app, users can
+                compare different takes of the Bard through reviews in the New
+                York Times API. Towards the bottom of the page, there are links
+                to different published versions of the plays via Google Books so
+                the user can refresh themselves with Shakespeare's scripts after
+                exploring contemporary productions. Built with HTML, CSS,
+                JavaScript, and JQuery. Click on the image to visit the site,
+                <a
+                  href="https://github.com/a-frear/nyt-shakes"
+                  class="repo"
+                  target="_blank"
+                >
+                  here for the Github repo.</a
+                >
+              </p>
+            </div>
+            <div class="item">
+              <a
+                href="https://a-frear.github.io/shakespeare-quiz/"
+                target="_blank"
+                class="port-img-link"
+              >
+                <div class="imageBox2">
+                  <div class="imageInn2">
+                    <img
+                      src="img/shakespeare-quiz.png"
+                      alt="Shakespeare Quiz"
+                      class="portfolio-img"
+                    />
+                  </div>
+                </div>
+              </a>
+              <h3 class="port-title">
+                <a
+                  href="https://a-frear.github.io/shakespeare-quiz/"
+                  target="_blank"
+                  class="repo"
+                  >Such Stuff as Dreams are Made On...</a
+                >
+              </h3>
+              <h4 class="port-subtitle">A Shakespeare Quiz</h4>
+              <p class="port-summary">
+                Once you catch up on your Shakespeare, take a stab at this quiz!
+                This quiz app uses JavaScript and JQuery to keep track of your
+                score and crown you with a Shakespearean quote (or insult)
+                depending on your grade. Even if you are unfamiliar with his
+                works, this quiz will provide you with lots of fun facts about
+                Shakespeare's life, his plays, and the actors that have taken on
+                his famous roles (can you tell I'm a theater nerd?). Click on
+                the image to visit the site,
+                <a
+                  href="https://github.com/a-frear/shakespeare-quiz"
+                  class="repo"
+                  target="_blank"
+                >
+                  here for the Github repo.</a
+                >
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <footer id="contact" class="group">
+        <div class="item">
+          <h2>Say Howdy!</h2>
+          <img
+            src="img/cowboys.png"
+            width="550"
+            id="cowboys"
+            alt="Contact Image"
+          />
+        </div>
+        <div class="item">
+          <form action="https://formspree.io/amy.frear@gmail.com" method="post">
+            <fieldset>
+              <legend>Email:</legend>
+              <div>
+                <label for="name">Name:</label>
+                <input id="name" type="text" name="name" />
+                <div>
+                  <label for="email-form">Email:</label>
+                  <input id="email-form" type="text" name="email" />
+                </div>
+                <div>
+                  <label for="message">Message:</label>
+                  <textarea id="message" name="message"></textarea>
+                </div>
+              </div>
+            </fieldset>
+            <button type="submit">Submit</button>
+          </form>
+          <div>
+            <h3>
+              Or reach out directly to
+              <a id="email" href="mailto:amy.frear@gmail.com" target="_blank"
+                >amy.frear @ gmail.com</a
+              >
+            </h3>
+          </div>
+          <div>
+            <ul>
+              <li>
+                <a
+                  href="https://www.linkedin.com/in/amy-frear-988a8123"
+                  target="_blank"
+                >
+                  <img
+                    src="img/linkedin-gray.png"
+                    width="25"
+                    class="icon"
+                    alt="Linkedin icon"
+                  />
+                </a>
+              </li>
+              <li>
+                <a href="https://github.com/a-frear" target="_blank">
+                  <img
+                    src="img/github-gray.png"
+                    width="25"
+                    class="icon"
+                    alt="Github icon"
+                  />
+                </a>
+              </li>
+              <li>
+                <a href="https://vimeo.com/amyfrear" target="_blank">
+                  <img
+                    src="img/vimeo-gray.png"
+                    width="25"
+                    class="icon"
+                    alt="Vimeo icon"
+                  />
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </footer>
+    </main>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.0.0/jquery.magnific-popup.min.js"></script>
+    <script src="index.js"></script>
+  </body>
 </html>
